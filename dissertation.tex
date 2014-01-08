@@ -1,0 +1,191 @@
+%
+% Modified version of the sample_ndthesis.tex
+% by Sameer Vijay
+% Last Change: Wed Jul 27 2005 14:00 CEST
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Sample Notre Dame Thesis/Dissertation
+% Using Donald Peterson's ndthesis classfile
+%
+% Written by Jeff Squyres and Don Peterson
+%
+% Provided by the Information Technology Committee of
+%   the Graduate Student Union
+%   http://www.gsu.nd.edu/
+%
+% Nothing in this document is serious except the format.  :-)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% This is *not* a substitute for Donald's orginial documentation.  See
+% /afs/nd.edu/usr/local/src/tex/texmf/doc/latex/ndthesis/ndthesis.dvi
+% for documentation on the particular commands and whatnot.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% You should *also* have a ND formatting guide to ensure that you have
+% all the relevant parts, put the captions in the right place, etc.
+% Just because you have this wonderful style classfile doesn't mean
+% that it removes *all* the formatting onus from you.  :-)
+%
+% Normally, you should break all of this stuff up into separate files
+% (at the very least, one chapter per file) and use the \input
+% command.  This is all one file for brevity's (and clarity's) sake.
+%
+% Note that you should also have a good Makefile; one that invokes
+% LaTeX as many times as necessary (up to 4) and bibtex if necessary.
+% One should be included in this distribution.  You may want to modify
+% the Makefile to make separate chapters, if necessary.
+%
+% If you have any suggestions, comments, questions, please send e-mail
+% to: ndthesis@gsu.nd.edu
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[textrefs,review]{nddiss2e}
+
+% % uncomment the following line 
+% if using chapter-wise bibliography
+% \usepackage{chapterbib}
+% \renewcommand{\bibname}{Cited Works}
+% \renewcommand{\bibsection}{\section{\bibname}}
+
+\begin{document}
+
+\frontmatter
+
+\title{Potential of Opportunistic Relaying\\ {\small\scshape Performance study across wireless interfaces on smartphones} }
+\author{Shu Liu}
+\work{Dissertation}
+\degprior{B.S., M.S.}
+\degaward{Doctor of Philosophy\\in\\Computer Science and Engineering}
+\advisor{Aaron Striegel}
+% \secondadvisor{Gordon Gray}
+\department{Computer Science and Engineering}
+
+\maketitle
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Front stuff
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\copyrightholder{Shu Liu}
+\copyrightyear{2014}
+\makecopyright
+
+\begin{abstract}
+\end{abstract}
+
+\renewcommand{\dedicationname}{}
+
+\begin{dedication}
+  To my husband, Wei, who inspires me to exceed my potential. 
+\end{dedication}
+
+\tableofcontents
+\listoffigures
+\listoftables
+
+\begin{preface}
+\end{preface}
+
+\begin{acknowledge}
+I would like to thank my advisor, Dr. Aaron Striegel, who helped provide
+direction and guidance for this work. Without his trust and support, I would not have had the opportunity to work in such great research projects. I would also like to thank the members of my committee, Dr. Christian Poellabauer, Dr. David Hachen and Dr. Gregory Madey, for their time and support in this process.
+
+I also need to thank all my colleagues who create such a good atmosphere in the group;
+Dr. Andrew Blaich, Dr. Yingxin Jiang, Dirk Van Bruggen, Lei Meng, Xueheng Hu, Benjamin Bockdtege, and Rachael Purta.  Also Margaret and Michael, deserve a special thanks because their great supports in the Netsense project. I need to further thank all my friends, Nikhil, Hongsheng and Mehrdad, who always took the time to listen. 
+\end{acknowledge}
+
+\begin{symbols} 
+\end{symbols}
+
+\mainmatter
+
+%
+% Chapter 0 (features)
+%
+\setcounter{chapter}{-1}
+\chapter{FEATURES OF FORMATTING IN THIS EXAMPLE FILE}
+
+This \verb+chapter+ has been added to the original sample file to highlight the
+various features with the formatting that conforms to the Graduate school
+guidelines --- whether obtained due to the use of \nddiss\/ class file or just
+plain good practice.
+\begin{itemize}
+\item An important thing you might notice is that the title of this chapter 
+is not in all CAPS. This is a feature since using \verb+\MakeTextUpperCase{}+ 
+is not helpful
+when you have a math formula or something that just doesnt go CAPS (for eg.
+elemental symbols).
+\item If you're looking at a pdf document, the pdf bookmarks (left column) link
+to all major textual sections including abstract, toc, lof, lot and
+bibliography.
+\item In the {\em dedication}, the title name has been modified. So, you know
+how to and that it can be done.
+\item The entries in the {\em List of figures} and {\em List of Tables} are
+single-spaced themselves but are double-spaced from the other.
+\item The table captions are not in all CAPS as well for the reason mentioned
+above.
+\item Appropriate space is left between the \verb+Table xx+ and its
+corresponding caption (which is double-spaced itself) as in table \ref{tbl:bogus1}.
+\item Tables look much better without the vertical lines (good practice).
+\item There is double-spacing between the table entries but single-spacing
+within the entry.
+\item The chapter (see Chapter \ref{chap:golfing}) or section titles are
+double-spaced as mentioned in the guidelines.
+\item There is a \verb+subsubsection+ present (eg. section \ref{sec:data}) and
+is properly formatted in the TOC.
+\item Table \ref{tbl:defs} is an example of the use of \textsf{landscape}
+environment in which a normal table is formatted in a {\em landscape} mode.
+\item The \textsf{longtable} environment is used in Tables \ref{tbl:votes} and
+\ref{tbl:rotated-rankings}, in normal and \verb+landscape+ mode, respectively. The
+table captions are formatted properly in both cases.
+\item In the table \ref{tbl:votes}, the \verb+footnote+ in the table header 
+does not appear at all. This is not an error of the \nddiss\/ class but of the
+\textsf{longtable} package.
+\item An example of citing a website is shown in the bibliography (see
+\citep{gairley2000}) which is formatted using the 
+\verb+nddiss2e.bst+
+citation style file.
+\item A bit of information on the \nddiss\/ class file and the typesetting program
+used is included in a box on the last page of the thesis.
+\end{itemize}
+
+%
+% Chapter 1
+%
+
+\include{chapter1}
+
+
+%
+% Chapter 2
+%
+
+\include{chapter2}
+
+
+%
+% Appendix
+%
+
+\appendix
+
+\include{appendix}
+
+
+%
+% Back stuff
+%
+
+% % comment out the following three lines
+% if using chapter-wise bibliography
+
+ \backmatter
+ \bibliographystyle{nddiss2e}
+ \bibliography{dissertation}
+
+\end{document}
+
+% End of ``example.tex''

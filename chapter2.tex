@@ -24,133 +24,103 @@
 % Chapter 2
 %
 
-\chapter{GNU THINGS ARE GOOD THINGS FOR ALL GRADUATE STUDENTS OR SO IT SEEMS}
-\label{chap:golfing}
+\chapter{Large-scale Dataset}
+\label{chap:dataset}
+As espoused by the MIT Reality Mining group in \cite{Nathan3,Nathan1}, the increasing availability and reliability of smartphones affords incredible opportunities for the unobtrusive gathering of data with regards to usage, location, and performance.  Although quite expensive to gather versus user self-reporting or user volunteers, a fully instrumented smartphone represents a veritable wealth of data that can afford unique insight into the smartphone performance study.
 
-\section{Gnu See, Gnu Do, Gnu Goes Golfing with Green Golf Genes and
-  Gesticulates Grapes}
+In August of 2011, two hundred participants were selected from the incoming freshmen class of our university and received a free Android smartphone and plan in exchange for agreement to participate in the two-year data collection project.  Each Android device was rooted and a custom ROM installed (Cyanogenmod) to enable the device being permanently Bluetooth discoverable. A user-level agent was installed on each of the smartphones that extracted a wide variety of environmental and usage data from the phone at periodic intervals.  The monitoring agent was installed to start automatically when the smart phone power was turned on and ran passively in the background. Tuning was conducted on the agent to ensure that even with WiFi enabled and Bluetooth always discoverable for a battery life potential at distribution of roughly one and a half days.  
 
-So why do gnus do what they do?  This is a perennial question that has
-yet to be answered definitively by scientists.  Is their future
-somehow tied inexplicably with that of humans?  Hard to say, but we do
-feed them a lot.  It has even been theorized that rotundness is a
-symbol of status or class within the Gnus; those who are more
-productive (i.e., cute, furry, friendly) will be fed more than those
-who are less so.  So the more rotund, the higher status one has in the
-Gnu society.
+\section{Data Collection}
+In order to build a flexible and stable platform for delivering on-going subject queries in a secure and efficient way, we designed and implemented the monitoring system in the Fall of 2010 and did a few serials of tests before the study began. The key part of the monitoring system is the customized agent installed on the smartphones named \textit{PhoneMonitor} as illustrated in Figure~\ref{fig:agent}. The Android platform was selected for its customization capabilities through normal API or rooted/customized interfaces with respect to hardware-level interactions. It collects a variety of types of data as illustrated in table~\ref{table:data} and each kind of data is invoked through the corresponding function calls. Separate threads are employed to compensate for the variety of speeds at which the respective functions retrieve relevant data. For example, the Bluetooth data includes the detailed values of timestamp, RSSI (Received signal strength indication), MAC address, and Bluetooth identifier (BTID) with a default sensing granularity of once per minutes. The wireless environmental data (primarily WiFi) has similar fields except the access point (AP) name is recorded and the granularity of sensing is three minutes. Traffic data includes breakdowns by application and wireless adapter (cell, WiFi) with respect to both downlink (Rx) and uplink (Tx) usage at intervals down to as low as once per minute. The light sensor data, which includes the timestamp and sensor values, can help us to determine whether the phone is sheltered (e.g. inside a backpack or in hand) and the surroundings (e.g. inside or outside buildings) during the daytime. It is recorded if the current value changes more than 30 compared with the last recorded value. For mail data, both sender and receiver email addresses are recorded without content snooping. More detailed information about collected data can be found in table~\ref{table:detailed_data}. Graphic User Interface (GUI) of the application allows participants to read the last check-in time as well as the status of the network connection and Bluetooth. 
 
-One could extrapolate this to mean that there is a super-Gnu out there
-somewhere; the biggest, routundest Gnu that you've ever seen, probably
-of epic proportions!  This would have to be the Leader of Gnus, or LoG
-for short.  But the LoG would definitely have to be the cutest,
-furriest, and most friendly Gnu that you've ever seen.
+\begin{figure}[h!tbp]
+\centering 
+{\includegraphics[width=3.5in]{graphs/Figure1.eps}}
+\caption{Design of PhoneMonitor} 
+\label{fig:agent}
+\end{figure} 
 
-\subsection{The LoG}
+\begin{table}[ht] 
+\caption{Types of data collected in PhoneMonitor application} 
+\centering  
+\begin{tabular}{|l|m{10cm}|}
+\hline
+{\bf Device Information} & Bluetooth, WiFi, Cell, Location, Light Sensor, Screen On/Off, Battery Level, Connection Status, Network Traffic, Application Usage, Port Information, Running/Install Apps, Password, Contacts, Camera Usage\\
+\hline
+{\bf Digital Communication} & Phone Call, SMS, Mail, Web Browser History, Music\\
+\hline
+\end{tabular}
+\label{table:data} 
+\end{table}
 
-So how does the LoG get chosen?  Ultimately by humans.  So we can say
-that the Gnu society is perhaps the truest democracy that has ever
-existed; the leader is chosen by merit, and chosen by complete
-outsiders.  As such, the LoG must truly epitomize all that Gnus stand
-for: opposedness to overmanagement, cuteness, friendliness, and
-furriness~\citep{gloonson98:_gnuly_discov_gnus}.  The gnus themselves
-vote at an anual election, based upon these attributes (campagaining
-is an anethema to Gnus; see Section~\ref{sec:groovin-gnus}).
+Figure~\ref{fig:system} illustrates the framework of smartphone data collection, storage and query process. Data is locally spooled on the phone before being securely transmitted to one of two remote check-in servers.  Data from the check-in server is then spooled locally before being conveyed to a database server not directly connected to the Internet with all accesses strictly logged and validated to protect sensitive user data. From September 2011 to September 2013, we got more than 250G data in the database. 
 
-\subsubsection{Election Data}
-\label{sec:data}
+\begin{figure}[h!tbp]
+\centering 
+{\includegraphics[width=6in]{graphs/system.eps}}
+\caption{Smartphone monitoring system} 
+\label{fig:system}
+\end{figure} 
 
-Table~\ref{tbl:votes} shows the latest electoral college voting by the
-LoG for the year 2000.  Each Gnu is scored on a scale of one to ten on
-the attributes described above.  The results shown in the table are
-average scores in each category for all votes; the Gnu's final score
-is shown in the final column.
+\section{Dataset Overview}
+The dataset used in the dissertation covers 15 months data (Oct 2011 - Dec 2012) and there are around 41 million Bluetooth records, 50 million WiFi scans and 1 million SMS messages. Data from the first two months of the study is excluded to allow for the new freshmen to have settled into a new routine and social arrangements.  A reasonable degree of co-location exists amongst students in the study with students selected clustered amongst six primary dormitories equally divided amongst male and female students.  Once entered into the study, students were free to re-locate at either the beginning of the spring semester (2012) or the start of their sophomore year.  Moreover, the respective distribution levels within individual dormitories made it reasonably close to random chance amongst incoming freshmen for that dormitory if two participants in the study were selected as roommates. At the onset of the monitored period for the paper, approximately 11 students had dropped from the student reducing the data pool to 189 students.  
 
-%
-% Be aware that page-spanning tables a Very Odd Creatures.  The
-% "longtable" environment in LaTeX does some deep Voodoo to make
-% everything work out properly.  One of its deep incantations is to
-% make the table appear as though it is double spaced.  You can fix
-% this by trailing each line with "\\[-6em]" instead of just "\\".
-%
+Table~\ref{table:summary} summarizes the details of the data across different months.  For each of the respective metrics presented in the table, we reduce the sampling rate to five minutes slots scattered throughout the day where each day has the potential for 288 measurement points.  The powered on percentage represents the number of slots when the phone monitor was active with a noticeable drop during later hours (12am - 8 am) but a notable uptick during the evening hours (4pm-12am).  The screen on percentage is the duration when the phone screen is on and implies the average usage of the phone for either consuming data or conducting other communications (SMS, phone call, etc.).  The monthly Bluetooth and WiFi records shows the average number of distinguished Bluetooth devices/WiFi APs detected per device across the month.  University virtual APs are reduced to a single AP as each university router offers between two to four WiFi AP names.  
 
-\begin{center}
-  \begin{longtable}{lccccc}
-    \caption{ELECTORAL COLLEGE RESULTS FOR THE LoG ELECTION IN THE YEAR
-2000\label{tbl:votes}\/}\\
-        \toprule
-        Candidate\footnote{note all names begin with G} & Anti-management & Cuteness & Friendliness & Furriness & Aggregate \\
-        \midrule
-\endfirsthead % Everything above goes at the top of the 1st page only
-% As with the first header, we don't want obscene amounts of space for
-% subsequent headings either, and eliminate an em of whitespace.
-  \caption[]{{\em Continued}}\\
-  \midrule
-  Candidate & Anti-management & Cuteness & Friendliness & Furriness & Aggregate \\
-  \midrule
-\endhead % Everything above here (and below the \endfirsthead) goes at the top
-         % of continuation pages.  The [] argument prevents a duplicate
-         % entry from appearing in the table of contents.
-% The following 3 lines are provided as an example only -- per ND
-% guidelines, the footer at the bottom of a page for a longtable
-% should not have a bottom line.  Only the absolute bottom of the
-% table should have a final \bottomline
+Figure~\ref{fig:num_cdf} exhibits the empirical distribution functions (ECDF) of different types of data in April 2012 to offer additional context for the data beyond the average values denoted in Table \ref{table:summary}.  Two percentage value ECDFs are plotted (power on, screen on) together with two detected environmental values (unique Bluetooth devices in the month, unique APs in the month).  Scales for each of the two values are the lower axis for percentage and upper axis for raw numeric counts.   Most notably, the average number of unique Bluetooth devices detected in April 2012 was 746 with some devices seeing as high as over 1000 devices and others seeing as low as slightly less than 200 unique devices.  Table~\ref{table:summary} also contains distinctions with respect to intra-study proximity and inter-study breakdowns of the various Bluetooth devices.  As would be expected, intra-study detection dramatically trails off during summer break in tandem with detected university APs as the students leave campus.       
 
-%  \midline
-%  \multicolumn{6}{|r|}{\textit{continued}\ldots} \\
-%  \bottomrule
-\endfoot % The above section goes at the bottom of continuation pages
-  \bottomrule
-\endlastfoot % The very last bottom of the table
-    Glen & 6.2 & 7.0 & 6.1 & 9.8 & 7.2 \\
-    Goober & 6.9 & 2.1 & 5.7 & 4.1 & 4.6 \\
-    Genevra & 2.2 & 2.0 & 1.1 & 1.1 & 1.6 \\
-    Greg & 8.3 & 0.4 & 1.1 & 9.5 & 4.8 \\
-    Gina & 6.0 & 7.8 & 6.4 & 4.9 & 6.2 \\
-    Geof & 1.1 & 8.7 & 3.7 & 7.3 & 5.2 \\
-    Grendel & 2.8 & 1.7 & 3.4 & 3.2 & 2.7 \\
-    Geronimo & 1.2 & 1.2 & 8.8 & 2.2 & 3.3 \\
-    Gabrielle & 4.7 & 3.6 & 0.8 & 2.0 & 2.7 \\
-    Giovani & 8.4 & 5.8 & 3.4 & 7.4 & 6.2 \\
-    Graham & 4.7 & 5.8 & 5.3 & 0 & 3.9 \\
-    Gil & 5.9 & 4.0 & 5.5 & 7.6 & 5.7 \\
-    Gerald & 2.0 & 3.7 & 8.0 & 4.3 & 4.5 \\
-    Guilani & 7.7 & 3.9 & 2.7 & 6.4 & 5.1 \\
-    Guido & 7.6 & 4.3 & 6.5 & 1.0 & 4.8 \\
-    Godzilla & 5.1 & 2.2 & 5.3 & 6.9 & 4.8 \\
-    Gail & 5.7 & 7.9 & 4.1 & 1.0 & 4.6 \\
-    Garth & 4.7 & 7.1 & 2.5 & 3.0 & 4.3 \\
-    Gavin & 1.1 & 9.5 & 0.4 & 8.0 & 4.7 \\
-    George & 9.5 & 4.5 & 9.1 & 7.5 & 7.6 \\
-    Gunnar & 1.4 & 5.8 & 4.8 & 6.2 & 4.5 \\
-    Gillian & 7.6 & 9.0 & 6.4 & 4.6 & 6.9 \\
-    Greta & 1.5 & 0.5 & 0.9 & 7.7 & 2.6 \\
-    Gabby & 1.2 & 3.3 & 7.0 & 2.1 & 3.4 \\
-    Gaetena & 6.8 & 1.9 & 4.1 & 8.3 & 5.2 \\
-    Ganet & 2.3 & 1.1 & 8.5 & 7.3 & 4.8 \\
-    Gardenia & 1.8 & 9.5 & 9.9 & 3.0 & 6.0 \\
-    Genna & 5.2 & 3.7 & 3.4 & 3.8 & 4.0 \\
-    Genesis & 1.7 & 8.3 & 6.7 & 4.9 & 5.4 \\
-    Genaveve & 4.7 & 8.9 & 3.4 & 9.2 & 6.5 \\
-    Gene & 3.3 & 6.9 & 0.6 & 5.5 & 4.0 \\
-    Gilda & 5.2 & 4.6 & 9.9 & 1.4 & 5.2 \\
-    Goldie & 8.9 & 9.1 & 2.0 & 8.2 & 7.0 \\
-    Grace & 5.9 & 3.2 & 3.1 & 4.3 & 4.1 \\
-    Gretchen & 4.5 & 6.5 & 1.6 & 1.3 & 3.4 \\
-    Garrick & 4.8 & 5.7 & 9.4 & 5.1 & 6.2 \\
-    Gallagher & 7.4 & 0.4 & 7.6 & 0.4 & 3.9 \\
-    Gerry & 1.4 & 8.8 & 4.7 & 0.5 & 3.8 \\
-    Gertrude & 9.1 & 8.3 & 0.4 & 5.5 & 5.8 \\
-    Gehosephet & 6.6 & 2.9 & 8.3 & 4.4 & 5.5 \\
-    Gohn & 8.7 & 2.6 & 7.4 & 2.3 & 5.2 \\
-    Gibby & 8.7 & 6.9 & 4.7 & 7.2 & 6.9 \\
-  \end{longtable}
-\end{center}
+\begin{table}[tb] 
+\caption{Monthly Data Summary} 
+\centering
+\begin{tabular}{p{6cm}|c|c|c|c}
+\hline
+		  Avg. Monthly Values per Phone							& Nov 2011 & Apr 2012 & Jul 2012 & Nov 2012 \\ [0.5ex] 
+\hline\hline Powered On (\%) 										& 73.7 	   & 70.6 	      & 51.3 	& 61.2		\\ 
+\hline	  Powered On (\%) (12am-8am) 							&  66.7	    & 60.7 		& 42.3 	& 58.0 \\
+\hline 	  Powered On (\%) (8am-4pm) 								& 74.6 	   & 69.3 	      & 51.3 	& 62.7 \\
+\hline 	  Powered On (\%) (4pm-12am)   			 				& 79.6	    & 72.7 		& 60.1 	& 62.9 \\
+\hline	  Screen On (\%)										&  5.74	    & 5.05 		& 4.99 	& 4.30 \\
+\hline	  Total Rx Traffic  (MB)									&  609.2	    & 727.2 	& 864.5 	& 685.8 \\
+\hline	  Total Tx Traffic  (MB)									&  133.11	    & 123.8 	& 130.4 	& 200.8 \\
+\hline 	  \# of Detected Distinct Bluetooth Devices					&  961 	     & 746 		& 310 	& 681	 \\
+\hline 	  \# of Detected Distinct Bluetooth Devices Within Project (RSSI $>=$ -80dBm) 	&  131 	     & 106 		 & 	$<$1 & 75	 \\
+\hline	  \# of Detected Distinct WiFi APs 										&  1218 	     & 1004	 	& 1777 	& 1663 \\
+\hline	  \# of Detected Distinct WiFi APs in Campus 								&  424 	     & 446	 	& $<$1 	& 433 \\
+\hline
+\end{tabular}
+\label{table:summary} 
+\end{table}
 
-As you can see from Table~\ref{tbl:votes}, George (my favorite Gnu)
-won for the year 2000, with an aggregate score of 7.6.
+\begin{figure}[tbp]
+\centering 
+{\includegraphics[width=3.5in]{graphs/num_cdf.pdf}}
+\caption{ECDF of Data in April 2012} 
+\label{fig:num_cdf}
+\end{figure} 
 
-% % uncomment the following lines,
-% if using chapter-wise bibliography
-%
-% \bibliographystyle{ndnatbib}
-% \bibliography{example}
+\section{Comparison}
+The inclusion of a device-side agent on a live user device introduces notable complexity with respect to user privacy and IRB (Institutional Review Board) concerns.  Moreover, such studies tend to be frequently expensive to conduct due to the cost of subsidizing access costs at a sufficient level to yield effective participatory compliance. Although there are several notable wireless datasets including university campuses (MIT Reality~\cite{Nathan3}, UCSD~\cite{mcnett2005access} and Dartmouth~\cite{henderson2004changing}), conference sites (Infocom~\cite{chaintreau2007impact}) and cities (Nokia~\cite{laurila2012mobile}), most datasets are limited in size and scope in terms of capturing dyadic relationships, namely both sides of a potential proximity relationship for the purposes of truly evaluating opportunistic networking.  For instance, both the MIT Reality and Infocom traces record when contact is detected by virtue of Bluetooth discovery, ample for characterizing the inter-contact times but not necessarily capturing energy levels nor traffic needs of the respective nodes.  Alternatively, the UCSD and Dartmouth traces rely on WiFi for localization gathering either data via AP fingerprinting (UCSD) or SNMP logs directly from the AP (Dartmouth).  The richest of the datasets is the data from the Nokia Data Challenge which includes both WiFi and Bluetooth data but the dataset is no longer public after the completion of the analysis.  In contrast to prior works, our dataset includes nominal proximity (Bluetooth) / location data (WiFi, Google Location service) in addition to a complete view of the smartphone environment including WiFi signal strengths, energy levels, traffic demands, and the social context for the participants in the study (Facebook, SMS, etc.).  Table~\ref{table:datasets} summarizes the most relevant studies and compares the works to our own reference study.  
+
+\begin{landscape}
+\begin{table*}[t] 
+\caption{Dataset Comparison} 
+\centering
+\scalebox{1}{
+\begin{tabular}{c|c|c|c|c|c|c}
+\hline
+  			Traces 				&  Our Dataset  	&  MIT Reality 	 & 	UCSD 		& Dartmouth 	& Infocom  	& Nokia \\ [0.5ex] 
+\hline
+\hline		Device  				& Smartphone		&  Cell Phone	 & 	PDA			& Laptop PDA & iMote		&Smartphone \\
+\hline		\# of Devices 			& 189			& 97			 & 	275			& 6,648		& 41			& 185\\
+\hline		Network Type 			&  Bluetooth/WiFi	& Bluetooth	 &     WiFi			& WiFi 		& Bluetooth	& Bluetooth/WiFi\\
+\hline		Contact Type 			& Direct/AP-based	& Direct		 & 	AP-based		& AP-based	& Direct		& Direct/AP-based\\
+\hline		Duration (days)			& 458			& 246		 & 	77			& 114		& 4			& 210\\
+\hline		Granularity (seconds) 	& 60/300			& 300		 & 	120			& 300		& 120		& N/A\\
+\hline		\# of internal contacts 	& 3,616,184 		& 54,667		 &	195,364		& 4,058,284	& 22,459		& N/A\\
+\hline		Internal pairwise contact/day	& 0.221		& 0.022		 & 	 0.034		& 0.008		& 3.4		& N/A\\	
+\hline		Other proximity related data	& Cell, Traffic, etc.	& Cell	 & 	N/A			& N/A		& N/A		& Cell, etc.\\
+\hline
+\end{tabular}}
+\label{table:datasets} 
+\end{table*}
+\end{landscape}

@@ -3,47 +3,53 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: dissertation.aux
 A level-1 auxiliary file: chapter1.aux
 A level-1 auxiliary file: chapter2.aux
+A level-1 auxiliary file: chapter3.aux
+A level-1 auxiliary file: chapter4.aux
+A level-1 auxiliary file: chapter5.aux
+A level-1 auxiliary file: chapter6.aux
 A level-1 auxiliary file: appendix.aux
 The style file: nddiss2e.bst
 Database file #1: dissertation.bib
-You've used 5 entries,
+Warning--empty journal in CiscoAnnualCellGrowth
+You've used 39 entries,
             2771 wiz_defined-function locations,
-            630 strings with 5110 characters,
-and the built_in function-call counts, 1650 in all, are:
-= -- 147
-> -- 61
-< -- 6
-+ -- 23
-- -- 18
-* -- 108
-:= -- 272
-add.period$ -- 14
-call.type$ -- 5
-change.case$ -- 12
-chr.to.int$ -- 5
-cite$ -- 10
-duplicate$ -- 84
-empty$ -- 155
-format.name$ -- 25
-if$ -- 343
+            838 strings with 11574 characters,
+and the built_in function-call counts, 21701 in all, are:
+= -- 1990
+> -- 1419
+< -- 25
++ -- 474
+- -- 435
+* -- 1814
+:= -- 3261
+add.period$ -- 111
+call.type$ -- 39
+change.case$ -- 201
+chr.to.int$ -- 39
+cite$ -- 79
+duplicate$ -- 917
+empty$ -- 1637
+format.name$ -- 492
+if$ -- 4657
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 4
-newline$ -- 32
-num.names$ -- 20
-pop$ -- 44
+missing$ -- 38
+newline$ -- 185
+num.names$ -- 156
+pop$ -- 534
 preamble$ -- 1
-purify$ -- 11
+purify$ -- 183
 quote$ -- 0
-skip$ -- 58
+skip$ -- 740
 stack$ -- 0
-substring$ -- 43
-swap$ -- 10
-text.length$ -- 1
+substring$ -- 961
+swap$ -- 187
+text.length$ -- 15
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 50
-warning$ -- 0
-while$ -- 17
+type$ -- 429
+warning$ -- 1
+while$ -- 195
 width$ -- 0
-write$ -- 69
+write$ -- 484
+(There was 1 warning)

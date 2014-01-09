@@ -29,130 +29,24 @@
 
 \section{Overview}
 
-This is an overview of the introduction.  In here, I will use many
-many buzzwords and other legalistic-types of terms, mostly begining on
-the expounding of the holistic and synergistic energy that Gnus bring
-to our organizations.
+Over the past few years, a vast array of wireless devices and services have emerged that are fundamentally transforming how we as a society gather and react to information.  Furthermore, the new wireless ecosystem has increased wireless data consumption at phenomenal rates with the most popular cited estimates slating traffic to double every year for the next five years \cite{CiscoAnnualCellGrowth}.  Dubbed the \emph{wireless data tsunami}, the dominant question for wireless service providers (carriers) is how to meet what appears to be an insatiable need for wireless data.  Unlike wired networks, spectrum available for wireless data is finite and typically entails massive costs for acquisition and infrastructure deployment.  Although
+technologies such as LTE herald the arrival of fourth-generation (4G) wireless technology, the new speeds often only temporarily satiate the need for additional bandwidth. A wide variety of solutions have emerged ranging simpler solutions such as better WiFi offloading to much more complex solutions such as small heterogeneous cellular networks. For many cellular providers, WiFi offloading, i.e. the users receiving data from 802.11-based hotspots, offers a significant appeal by reducing the strain on the already overloaded cellular infrastructure. Recent studies such as the one in \cite{lee2010mobile} points to offloading offering gains approaching 65\% of the total traffic volume. There are other works such as \cite{balasubramanian2010augmenting, dimatteo2011cellular, han2011mobile, icc2012performance} that discuss the feasibility of WiFi offloading. 
 
-\subsection{Background}
+A rich category of work that is complementary to existing techniques is the concept of \emph{opportunistic communication}. Opportunistic communication refers to the concept which allows nodes to leverage sporadic, intermittent contacts when two nodes come into direct radio communication range~\cite{pelusi2006opportunistic}. When cellular or WiFi links are not available or not strong enough, opportunistic relaying introduces another alternative option for mobile device to get connected by working in tandem with one or more devices.  From a conceptual standpoint for opportunistic networking, the design of the relaying protocol is critical, namely how does one select and manage appropriate relaying nodes as relays~\cite{laneman2004cooperative,sendonaris2003user,bletsas2006simple,lu2009design,bahl2009opportunistic}.  
 
-In preparation for reading this dissertation, I would highly recommend
-reading some of the other material available on
-Gnus~\citep{gnus98:_gerry_ganst,greenfield96:_gettin_know_gnu}.  They
-are very well written and will give you a fuller understanding of
-Gnus.
+The primary goal of my work is to gather high quality smartphone data and leverage the data for reinforcing analysis from a technical network system perspective with respect to network connectivity and performance enhancement. In particular, I asked three interrelated questions: \emph{(i) Can existing wireless technologies on smartphone provide accurate face-to-face proximity estimation and to what extent are relationship formation and maintenance dynamics modified with the introduction of digital communication? (ii) Can the WiFi offloading be the ultimate solution for the predicted wireless data tsunami? (iii) Can the peer-to-peer communication between mobile devices in close proximity be a good candidate for offloading cellular systems?} The answers to these questions are fascinating to explore. The NetSense project is a study of first-year students tracked over a two-year period with respect to nearly all the smartphone information. The process of gathering data results in a rich pool of digital data which provides us the opportunities to analyze the technical dynamics of the network. These involve for instance, the wireless signal strengths can reflect the relative distance and connection status. Moreover, by collecting the information of traffic consumed by the phones, we are able to compare different types of traffic usage and understand their impacts on campus wireless networks. 
 
-Gnus are frequently mistakes for squirrels.  They are not squirrels.
-They are Gnus.  Don't call them squirrels, either (unless you have
-food in your hand); they tend to get a bit upset.\footnote{This is
-  frequently mistaken for the chattering and scampering away.  Gnus
-  are actually quite polite; they will leave if they have nothing nice
-  to say, for fear of saying something offensive.}  If you have food
-in your hand, they tend to ignore this insult and accept your food as
-a peace offering.
+\section{Contributions}
+The key contributions of my dissertation is as follows:
+\begin{itemize}
+\item Smartphone monitoring system: By collecting data on Android smartphones, we get a fully anonymized dataset containing device information and digital communication data of participants. It is the foundation of the research and provides multiple dimensions of data for research in both network science and sociology. 
 
-\subsection{Foreground}
+\item Bluetooth proximity: Under the premise that Bluetooth has better accuracy for short distance without the constrain of environment, we use Bluetooth signal strength as an indicator for relative distance between devices. In order to get accurate estimation of face-to-face distance, a proximity estimation model is proposed by leveraging the raw Bluetooth Received Signal Strength Indicator (RSSI) values and introducing multiple thresholds for different environments. 
 
-Table~\ref{tbl:bogus1} shows some feeding frequencies for where Gnus
-like to eat around the Notre Dame campus.  Gnus have work weeks, just
-like humans do, hence the much lower frequencies on weekends.  This
-can lead us to conclude that Gnu weekend shifts are much smaller than
-the normal work-week shifts.  In fact, we can attempt to parametrize the
-sighting frequency, $\mathcal{F}$, by the student population, type of food, and
-day of the week as:
-\begin{equation}
-  \mathcal{F} = \mathcal{F}(p,f,d).
-\end{equation}
-Table~\ref{tbl:bogus2} shows what they
-typically like to eat.
+\item WiFi offloading: For most cellular providers, WiFi offloading appeals to reduce the strain on the overloaded cellular infrastructure. However, based on our data, the WiFi traffic takes approximately 30\% of the total data consumption which is much lower than expected. We analyze the possible reasons for this as well as the usage patterns of users in different categorization according to their WiFi traffic consumption. 
 
-\begin{table}[tpb]
-  \begin{center}
-    \caption{WHERE Gnus LIKE TO EAT \label{tbl:bogus1}}
-    \begin{tabularx}{0.85\textwidth}{lrrrrrrr} \toprule
-      \multicolumn{1}{c}{Location} & Sun & Mon & Tue & Wed & Thu & Fri & Sat \\ \midrule
-      Front of Dome & 1 & 5 & 6 & 5 & 4 & 5 & 1 \\
-      Stonehenge & 2 & 9 & 10 & 12 & 9 & 14 & 2 \\
-      The Rock & 1 & 3 & 4 & 3 & 4 & 3 & 0 \\
-      The ACC & 3 & 4 & 5 & 5 & 5 & 4 & 1 \\
-      Dining Halls & 5 & 14 & 12 & 13 & 14 & 12 & 3 \\
-      Hesburgh Library & 2 & 3 & 5 & 2 & 3 & 4 & 2 \\ \bottomrule
-    \end{tabularx}
-  \end{center}
-\end{table}
+\item Proximity relay: 
+With the support of peer-to-peer communication in smartphones, it is practical to leverage the device-to-device data transfers to bridge the coverage gap between cellular and WiFi infrastructure network. Based on our data, we will do the quantitative analysis of the potential relaying which is a key missing part in relaying related research and evaluate the benefits of relaying for cellular traffic offloading in real life. 
+\end{itemize}
 
-\begin{table}[tpb]
-  \setlength{\capwidth}{0.7\textwidth}
-  \begin{center}
-    \caption{WHAT Gnus LIKE TO EAT ON THE NOTRE DAME CAMPUS, LISTED
-      BY AVERAGE NUMBER OF SIGHTINGS PER WEEKDAY
-    \label{tbl:bogus2}
-}
-    \begin{tabular}{lrrrrrrr} \toprule
-      \multicolumn{1}{c}{Food} & Sun & Mon & Tue & Wed & Thu & Fri & Sat \\ \midrule
-      Twinkies & 1 & 5 & 6 & 5 & 4 & 5 & 1 \\
-      Ding Dongs & 2 & 9 & 10 & 12 & 9 & 14 & 2 \\
-      Carrots & 1 & 3 & 4 & 3 & 4 & 3 & 0 \\
-      Lettuce & 3 & 4 & 5 & 5 & 5 & 4 & 1 \\
-      Twizlers & 5 & 14 & 12 & 13 & 14 & 12 & 3 \\
-      Jawbreakers & 2 & 3 & 5 & 2 & 3 & 4 & 2 \\ \bottomrule
-    \end{tabular}
-  \end{center}
-\end{table}
-
-Figure~\ref{fig:bogus3} shows a nice graph of location distributions
-by day of week.  I have no real reason for including it except to show
-that figures work as well.  Did I mention that Gnus are really cool?
-
-\begin{figure}[tpb]
-  \begin{center}
-    \centerline{\includegraphics[scale=0.8]{sample_nd}}
-    \caption{Location distributions by day of where, where the X axis
-      is the weekday (0 through 6), and the Y axis is the sighting
-      frequency}
-    \label{fig:bogus3}
-  \end{center}
-\end{figure}
-
-Gnus typically tend to come out when there are large gatherings of
-humans with food.  Gnus work very hard at providing us with all the
-things that we like (trees, dirt, air, etc.), and so we should freely
-give them food.  They will come up and stand a respectful distance
-away from you, waiting to see if they will be rewarded for their
-efforts.  If you offer some food, they will take it and back off a
-respectful distance in order to consume their food while leaving you
-to your ``personal space.''  
-
-\section{Groovin' Gnus}
-\label{sec:groovin-gnus}
-
-Gnus do tend to stay away from humans in their normal day-to-day
-workings.  This is mainly because humans don't, for the most part,
-understand what they are doing.  If a Gnu is working, and a human
-approaches it, the Gnu will tend to drop whatever it is doing and run
-away.  This is probably do to the tendency for humans to have ``group
-meetings'' and ``productivity seminars.''  Most Gnus are deathly
-afraid of such overmanagement, and run at the slightest hint of it,
-for fear that it will cripple their real work.
-
-It is interesting, however, that Gnus have chosen an Institution of
-Higher Education for their BOO.\footnote{Base of Operations.}  It is
-often said that:
-\begin{quote}
-  Academic politics are the dirtiest, meanest, ugliest, and generally
-  the most low-down, in-your-face, and kick-em-while-they're-down than
-  anywhere else (even Washington D.C.)  because the stakes are so low.
-\end{quote}
-It has been hypothesized that the Gnus are subtly trying to affect a
-change for the better (i.e., eliminating the overmanagement problems)
-by working the very system that they are trying to change, from
-within.  That is, the graduates from Notre Dame can learn from the
-examples of the Gnus here, and run screaming (or chattering) at the
-slightest hint of overmanagement, and let the real work proceed
-unhindered.
-
-% % uncomment the following lines,
-% if using chapter-wise bibliography
-%
-% \bibliographystyle{ndnatbib}
-% \bibliography{example}
+The rest of this paper is organized as follows. Section~\ref{sec:related_work} provides an overview of the related work and Section~\ref{sec:dataset} introduces the dataset we have. Based on the dataset, the framework to evaluate the potential for relaying is proposed in Section~\ref{sec:potential}. In the end, Section~\ref{sec:conclusion} concludes the paper.

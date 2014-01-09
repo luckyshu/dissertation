@@ -1,34 +1,230 @@
-\begin{thebibliography}{5}
+\begin{thebibliography}{39}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
-\bibitem[Galmira(1998)]{galmira98:_gnus_milit}
-G.~Galmira.
-\newblock \emph{Growing Towards Gnu}, III\penalty0 (7):\penalty0 22--183,
-  September 1998.
+\bibitem[Arshad et~al.(2010)Arshad, Farooq, and Shah]{arshad2010evolution}
+M.~Arshad, A.~Farooq, and A.~Shah.
+\newblock \emph{Journal of American Science}, 6\penalty0 (12):\penalty0 63--68,
+  2010.
 
-\bibitem[Ganston and Greenfield(1998)]{gnus98:_gerry_ganst}
-G.~Ganston and G.~Greenfield.
-\newblock \emph{Gnus and You: The Art of Being New}, volume~I.
-\newblock Grapping Books, NY, August 1998.
+\bibitem[Bahl et~al.(2009)Bahl, Chandra, Lee, Misra, Padhye, Rubenstein, and
+  Yu]{bahl2009opportunistic}
+P.~Bahl, R.~Chandra, P.~Lee, V.~Misra, J.~Padhye, D.~Rubenstein, and Y.~Yu.
+\newblock \emph{IEEE/ACM Transactions on Networking (TON)}, 17\penalty0
+  (4):\penalty0 1160--1171, 2009.
 
-\bibitem[Gloonston(1998)]{gloonson98:_gnuly_discov_gnus}
-G.~Gloonston.
-\newblock \emph{Growing Towards Gnu}, II\penalty0 (12):\penalty0 23--57, March
-  1998.
+\bibitem[Balasubramanian et~al.(2010)Balasubramanian, Mahajan, and
+  Venkataramani]{balasubramanian2010augmenting}
+A.~Balasubramanian, R.~Mahajan, and A.~Venkataramani.
+\newblock Augmenting mobile {3G} using {WiFi}.
+\newblock In \emph{MobiSys'10}, pages 209--222. ACM, 2010.
 
-\bibitem[Greenfield(1996)]{greenfield96:_gettin_know_gnu}
-G.~Greenfield.
-\newblock \emph{Getting to Know Gnu}.
-\newblock PhD thesis, Geoffrey Garfield School of Gnus, August 1996.
+\bibitem[Baouche et~al.(2009)Baouche, Freitas, and Misson]{baouche2009radio}
+C.~Baouche, A.~Freitas, and M.~Misson.
+\newblock \emph{Journal of Communications}, 4\penalty0 (4):\penalty0 232--240,
+  2009.
 
-\bibitem[van Gairley(2000)]{gairley2000}
-G.~van Gairley.
-\newblock Gnu's review.
-\newblock Website, 2000.
-\newblock \url{http://www.gairley.gnu}.
+\bibitem[Bilgi et~al.(2010)Bilgi, Yuksel, and Pala]{bilgi20103}
+M.~Bilgi, M.~Yuksel, and N.~Pala.
+\newblock 3-d optical wireless localization.
+\newblock In \emph{GLOBECOM Workshops (GC Wkshps), 2010 IEEE}, pages
+  1062--1066. IEEE, 2010.
+
+\bibitem[Bletsas et~al.(2006)Bletsas, Khisti, Reed, and
+  Lippman]{bletsas2006simple}
+A.~Bletsas, A.~Khisti, D.~Reed, and A.~Lippman.
+\newblock \emph{Selected Areas in Communications, IEEE Journal on}, 24\penalty0
+  (3):\penalty0 659--672, 2006.
+
+\bibitem[Borovoy et~al.(1998)Borovoy, Martin, Vemuri, Resnick, Silverman, and
+  Hancock]{borovoy1998meme}
+R.~Borovoy, F.~Martin, S.~Vemuri, M.~Resnick, B.~Silverman, and C.~Hancock.
+\newblock Meme tags and community mirrors: moving from conferences to
+  collaboration.
+\newblock In \emph{CSCW'98}, pages 159--168. ACM, 1998.
+
+\bibitem[Chaintreau et~al.(2007)Chaintreau, Hui, Crowcroft, Diot, Gass, and
+  Scott]{chaintreau2007impact}
+A.~Chaintreau, P.~Hui, J.~Crowcroft, C.~Diot, R.~Gass, and J.~Scott.
+\newblock \emph{Mobile Computing, IEEE Transactions on}, 6\penalty0
+  (6):\penalty0 606--620, 2007.
+
+\bibitem[Cisco(2013)]{CiscoAnnualCellGrowth}
+Cisco.
+\newblock Feburary 2013.
+
+\bibitem[Dimatteo et~al.(2011)Dimatteo, Hui, Han, and Li]{dimatteo2011cellular}
+S.~Dimatteo, P.~Hui, B.~Han, and V.~Li.
+\newblock Cellular traffic offloading through {WiFi} networks.
+\newblock In \emph{MASS'11}. IEEE, 2011.
+
+\bibitem[Eagle and Pentland(2005)]{Nathan1}
+N.~Eagle and A.~Pentland.
+\newblock \emph{Pervasive Computing}, 4\penalty0 (2):\penalty0 28--34, 2005.
+
+\bibitem[Figueiras and Frattasi(2010)]{MobileLocation}
+J.~Figueiras and S.~Frattasi.
+\newblock Mobile positioning and tracking.
+\newblock Technical report, Wiley Online Library, 2010.
+
+\bibitem[Han et~al.(2011)Han, Hui, and Srinivasan]{han2011mobile}
+B.~Han, P.~Hui, and A.~Srinivasan.
+\newblock \emph{ACM SIGMOBILE Mobile Computing and Communications Review},
+  14\penalty0 (4):\penalty0 28--30, 2011.
+
+\bibitem[Henderson et~al.(2004)Henderson, Kotz, and
+  Abyzov]{henderson2004changing}
+T.~Henderson, D.~Kotz, and I.~Abyzov.
+\newblock The changing usage of a mature campus-wide wireless network.
+\newblock In \emph{MobiCom'04}, pages 187--201. ACM, 2004.
+
+\bibitem[Izquierdo et~al.(2006)Izquierdo, Ciurana, Barcelo, Paradells, and
+  Zola]{wifi}
+F.~Izquierdo, M.~Ciurana, F.~Barcelo, J.~Paradells, and E.~Zola.
+\newblock Performance evaluation of a {TOA}-based trilateration method to
+  locate terminals in {WLAN}.
+\newblock In \emph{Wireless Pervasive Computing, 2006 1st International
+  Symposium on}, pages 1--6, {jan.} 2006.
+\newblock \doi{10.1109/ISWPC.2006.1613598}.
+
+\bibitem[Khan et~al.(2009)Khan, Qadeer, Ansari, and Waheed]{khan20094g}
+A.~Khan, M.~Qadeer, J.~Ansari, and S.~Waheed.
+\newblock {4G} as a next generation wireless network.
+\newblock In \emph{ICFCC'09}, pages 334--338. IEEE, 2009.
+
+\bibitem[Kotanen et~al.(2003)Kotanen, Hannikainen, Leppakoski, and
+  Hamalainen]{BLPA}
+A.~Kotanen, M.~Hannikainen, H.~Leppakoski, and T.~Hamalainen.
+\newblock Experiments on local positioning with {Bluetooth}.
+\newblock In \emph{ITCC 2003: Information Technology: Coding and Computing},
+  pages 297--303, {april} 2003.
+\newblock \doi{10.1109/ITCC.2003.1197544}.
+
+\bibitem[Krumm and Hinckley(2004)]{krumm2004nearme}
+J.~Krumm and K.~Hinckley.
+\newblock \emph{UbiComp'04}, pages 283--300, 2004.
+
+\bibitem[K{\"u}pper and Treu(2006)]{kupper2006efficient}
+A.~K{\"u}pper and G.~Treu.
+\newblock \emph{ACM SIGMOBILE Mobile Computing and Communications Review},
+  10\penalty0 (3):\penalty0 1--12, 2006.
+
+\bibitem[LaMarca et~al.(2005)LaMarca, Chawathe, Consolvo, Hightower, Smith,
+  Scott, Sohn, Howard, Hughes, Potter, et~al.]{lamarca2005place}
+A.~LaMarca, Y.~Chawathe, S.~Consolvo, J.~Hightower, I.~Smith, J.~Scott,
+  T.~Sohn, J.~Howard, J.~Hughes, F.~Potter, et~al.
+\newblock \emph{Pervasive Computing}, pages 301--306, 2005.
+
+\bibitem[Laneman et~al.(2004)Laneman, Tse, and Wornell]{laneman2004cooperative}
+J.~Laneman, D.~Tse, and G.~Wornell.
+\newblock \emph{Information Theory, IEEE Transactions on}, 50\penalty0
+  (12):\penalty0 3062--3080, 2004.
+
+\bibitem[Laurila et~al.(2012)Laurila, Gatica-Perez, Aad, Blom, Bornet, Do,
+  Dousse, Eberle, and Miettinen]{laurila2012mobile}
+J.~K. Laurila, D.~Gatica-Perez, I.~Aad, J.~Blom, O.~Bornet, T.-M.-T. Do,
+  O.~Dousse, J.~Eberle, and M.~Miettinen.
+\newblock The mobile data challenge: Big data for mobile computing research.
+\newblock In \emph{Mobile Data Challenge by Nokia Workshop, in conjunction with
+  Int. Conf. on Pervasive Computing, Newcastle, UK}, 2012.
+
+\bibitem[Lee et~al.(2010)Lee, Rhee, Lee, Chong, and Yi]{lee2010mobile}
+K.~Lee, I.~Rhee, J.~Lee, S.~Chong, and Y.~Yi.
+\newblock Mobile data offloading: how much can {WiFi} deliver?
+\newblock In \emph{Co-Next'10}, pages 26--38. ACM, 2010.
+
+\bibitem[Li et~al.(2008)Li, Sohn, Huang, and Griswold]{li2008peopletones}
+K.~Li, T.~Sohn, S.~Huang, and W.~Griswold.
+\newblock Peopletones: a system for the detection and notification of buddy
+  proximity on mobile phones.
+\newblock In \emph{MobiSys'08}, pages 160--173. ACM, 2008.
+
+\bibitem[Liu et~al.(2007)Liu, Darabi, Banerjee, and Liu]{survey2}
+H.~Liu, H.~Darabi, P.~Banerjee, and J.~Liu.
+\newblock \emph{Systems, Man, and Cybernetics, Part C: Applications and
+  Reviews, IEEE Transactions on}, 37\penalty0 (6):\penalty0 1067 --1080,
+  {November} 2007.
+
+\bibitem[Lu et~al.(2009)Lu, Steenkiste, and Chen]{lu2009design}
+M.~Lu, P.~Steenkiste, and T.~Chen.
+\newblock Design, implementation and evaluation of an efficient opportunistic
+  retransmission protocol.
+\newblock In \emph{MobiCom'09}, pages 73--84. ACM, 2009.
+
+\bibitem[M.~Raento and Eagle(2009)]{Nathan2}
+A.~O. M.~Raento and N.~Eagle.
+\newblock \emph{Sociological Methods Research}, 37\penalty0 (3):\penalty0
+  426--454, 2009.
+
+\bibitem[McNett and Voelker(2005)]{mcnett2005access}
+M.~McNett and G.~M. Voelker.
+\newblock \emph{ACM SIGMOBILE Mobile Computing and Communications Review},
+  9\penalty0 (2):\penalty0 40--55, 2005.
+
+\bibitem[Mynatt et~al.(1997)Mynatt, Back, Want, and Frederick]{mynatt1997audio}
+E.~Mynatt, M.~Back, R.~Want, and R.~Frederick.
+\newblock Audio aura: Light-weight audio augmented reality.
+\newblock In \emph{Proceedings of the 10th annual ACM symposium on User
+  interface software and technology}, pages 211--212. ACM, 1997.
+
+\bibitem[Nathan~Eagle and Lazer(2009)]{Nathan3}
+A.~P. Nathan~Eagle and D.~Lazer.
+\newblock \emph{Proc. of the National Academy of Sciences (PNAS)}, 106\penalty0
+  (36):\penalty0 15274--15278, September 2009.
+
+\bibitem[Otsason et~al.(2005)Otsason, Varshavsky, LaMarca, and De~Lara]{cell}
+V.~Otsason, A.~Varshavsky, A.~LaMarca, and E.~De~Lara.
+\newblock \emph{UbiComp 2005: Ubiquitous Computing}, pages 903--921, 2005.
+
+\bibitem[Pelusi et~al.(2006)Pelusi, Passarella, and
+  Conti]{pelusi2006opportunistic}
+L.~Pelusi, A.~Passarella, and M.~Conti.
+\newblock \emph{Communications Magazine, IEEE}, 44\penalty0 (11):\penalty0
+  134--141, 2006.
+
+\bibitem[Sendonaris et~al.(2003)Sendonaris, Erkip, and
+  Aazhang]{sendonaris2003user}
+A.~Sendonaris, E.~Erkip, and B.~Aazhang.
+\newblock \emph{Communications, IEEE Transactions on}, 51\penalty0
+  (11):\penalty0 1927--1938, 2003.
+
+\bibitem[{\v{S}}ik{\v{s}}nys et~al.(2010){\v{S}}ik{\v{s}}nys, Thomsen,
+  {\v{S}}altenis, and Yiu]{vsikvsnys2010private}
+L.~{\v{S}}ik{\v{s}}nys, J.~Thomsen, S.~{\v{S}}altenis, and M.~Yiu.
+\newblock Private and flexible proximity detection in mobile social networks.
+\newblock In \emph{Mobile Data Management (MDM), 2010 Eleventh International
+  Conference on}, pages 75--84. IEEE, 2010.
+
+\bibitem[Treu and K{\"u}pper(2005)]{treu2005efficient}
+G.~Treu and A.~K{\"u}pper.
+\newblock Efficient proximity detection for location based services.
+\newblock In \emph{WPNC'05}, 2005.
+
+\bibitem[Want et~al.(1992)Want, Hopper, Falc{\~a}o, and
+  Gibbons]{want1992active}
+R.~Want, A.~Hopper, V.~Falc{\~a}o, and J.~Gibbons.
+\newblock \emph{ACM Transactions on Information Systems (TOIS)}, 10\penalty0
+  (1):\penalty0 91--102, 1992.
+
+\bibitem[Wieth{\"o}lter et~al.(2012)Wieth{\"o}lter, Emmelmann, Andersson, and
+  Wolisz]{icc2012performance}
+S.~Wieth{\"o}lter, M.~Emmelmann, R.~Andersson, and A.~Wolisz.
+\newblock Performance evaluation of selection schemes for offloading traffic to
+  {IEEE} 802.11 hotspots.
+\newblock In \emph{ICC'12}. IEEE, 2012.
+
+\bibitem[Zeimpekis et~al.(2002)Zeimpekis, Giaglis, and Lekakos]{survey1}
+V.~Zeimpekis, G.~M. Giaglis, and G.~Lekakos.
+\newblock \emph{SIGecom Exch.}, 3:\penalty0 19--27, December 2002.
+
+\bibitem[Zhou and Pollard(2006)]{BTposition}
+S.~Zhou and J.~Pollard.
+\newblock \emph{Consumer Electronics, IEEE Transactions on}, 52\penalty0
+  (2):\penalty0 555--558, {May} 2006.
+\newblock ISSN 0098-3063.
+\newblock \doi{10.1109/TCE.2006.1649679}.
 
 \end{thebibliography}

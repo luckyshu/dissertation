@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2010.7.21)  8 JAN 2014 11:24
+This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2010.7.21)  8 JAN 2014 18:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -319,36 +319,68 @@ Type  H <return>  for immediate help.
 l.669 \newcommand{\bibfont}{\singlespacing}
                                            
 ? 
-) (./dissertation.aux (./chapter1.aux) (./chapter2.aux) (./appendix.aux))
+) (/usr/local/texlive/2010/texmf-dist/tex/latex/algorithms/algorithm.sty
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+
+(/usr/local/texlive/2010/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count103
+\float@exts=\toks20
+\float@box=\box30
+\@float@everytoks=\toks21
+\@floatcapt=\box31
+)
+\@float@every@algorithm=\toks22
+\c@algorithm=\count104
+)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/algorithms/algorithmic.sty
+Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
+\c@ALC@unique=\count105
+\c@ALC@line=\count106
+\c@ALC@rem=\count107
+\c@ALC@depth=\count108
+\ALC@tlm=\skip59
+\algorithmicindent=\skip60
+)
+(/usr/local/texlive/2010/texmf-dist/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen119
+)
+(./dissertation.aux (./chapter1.aux) (./chapter2.aux) (./chapter3.aux)
+(./chapter4.aux
+
+LaTeX Warning: Label `fig:distribution' multiply defined.
+
+) (./chapter5.aux) (./chapter6.aux) (./appendix.aux))
 \openout1 = `dissertation.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
 
 (/usr/local/texlive/2010/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count103
-\scratchdimen=\dimen119
-\scratchbox=\box30
-\nofMPsegments=\count104
-\nofMParguments=\count105
-\everyMPshowfont=\toks20
-\MPscratchCnt=\count106
-\MPscratchDim=\dimen120
-\MPnumerator=\count107
-\everyMPtoPDFconversion=\toks21
+\scratchcounter=\count109
+\scratchdimen=\dimen120
+\scratchbox=\box32
+\nofMPsegments=\count110
+\nofMParguments=\count111
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count112
+\MPscratchDim=\dimen121
+\MPnumerator=\count113
+\everyMPtoPDFconversion=\toks24
 ) (/usr/local/texlive/2010/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
@@ -364,8 +396,8 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\AtBeginShipoutBox=\box31
-Package hyperref Info: Link coloring OFF on input line 52.
+\AtBeginShipoutBox=\box33
+Package hyperref Info: Link coloring OFF on input line 54.
 
 (/usr/local/texlive/2010/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
@@ -376,11 +408,11 @@ Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
 (/usr/local/texlive/2010/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2009/12/18 v1.3 Cleanup title references (HO)
 )
-\c@section@level=\count108
+\c@section@level=\count114
 )
-LaTeX Info: Redefining \ref on input line 52.
-LaTeX Info: Redefining \pageref on input line 52.
-LaTeX Info: Redefining \nameref on input line 52.
+LaTeX Info: Redefining \ref on input line 54.
+LaTeX Info: Redefining \pageref on input line 54.
+LaTeX Info: Redefining \nameref on input line 54.
 
 (./dissertation.out) (./dissertation.out)
 \@outlinefile=\write3
@@ -389,7 +421,7 @@ LaTeX Info: Redefining \nameref on input line 52.
 
 (/usr/local/texlive/2010/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2000/07/18 v2.13 AMS math features
-\@mathmargin=\skip59
+\@mathmargin=\skip61
 
 For additional information on amsmath, use the `?' option.
 (/usr/local/texlive/2010/texmf-dist/tex/latex/amsmath/amstext.sty
@@ -397,51 +429,51 @@ Package: amstext 2000/06/29 v2.01
 
 (/usr/local/texlive/2010/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
-\@emptytoks=\toks22
-\ex@=\dimen121
+\@emptytoks=\toks25
+\ex@=\dimen122
 ))
 (/usr/local/texlive/2010/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
-\pmbraise@=\dimen122
+\pmbraise@=\dimen123
 )
 (/usr/local/texlive/2010/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count109
+\inf@bad=\count115
 LaTeX Info: Redefining \frac on input line 211.
-\uproot@=\count110
-\leftroot@=\count111
+\uproot@=\count116
+\leftroot@=\count117
 LaTeX Info: Redefining \overline on input line 307.
-\classnum@=\count112
-\DOTSCASE@=\count113
+\classnum@=\count118
+\DOTSCASE@=\count119
 LaTeX Info: Redefining \ldots on input line 379.
 LaTeX Info: Redefining \dots on input line 382.
 LaTeX Info: Redefining \cdots on input line 467.
-\Mathstrutbox@=\box32
-\strutbox@=\box33
-\big@size=\dimen123
+\Mathstrutbox@=\box34
+\strutbox@=\box35
+\big@size=\dimen124
 LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
-\macc@depth=\count114
-\c@MaxMatrixCols=\count115
+\macc@depth=\count120
+\c@MaxMatrixCols=\count121
 \dotsspace@=\muskip11
-\c@parentequation=\count116
-\dspbrk@lvl=\count117
-\tag@help=\toks23
-\row@=\count118
-\column@=\count119
-\maxfields@=\count120
-\andhelp@=\toks24
-\eqnshift@=\dimen124
-\alignsep@=\dimen125
-\tagshift@=\dimen126
-\tagwidth@=\dimen127
-\totwidth@=\dimen128
-\lineht@=\dimen129
-\@envbody=\toks25
-\multlinegap=\skip60
-\multlinetaggap=\skip61
-\mathdisplay@stack=\toks26
+\c@parentequation=\count122
+\dspbrk@lvl=\count123
+\tag@help=\toks26
+\row@=\count124
+\column@=\count125
+\maxfields@=\count126
+\andhelp@=\toks27
+\eqnshift@=\dimen125
+\alignsep@=\dimen126
+\tagshift@=\dimen127
+\tagwidth@=\dimen128
+\totwidth@=\dimen129
+\lineht@=\dimen130
+\@envbody=\toks28
+\multlinegap=\skip62
+\multlinetaggap=\skip63
+\mathdisplay@stack=\toks29
 LaTeX Info: Redefining \[ on input line 2666.
 LaTeX Info: Redefining \] on input line 2667.
 )
@@ -455,44 +487,36 @@ Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
 ))
-(/usr/local/texlive/2010/texmf-dist/tex/latex/float/float.sty
-Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count121
-\float@exts=\toks27
-\float@box=\box34
-\@float@everytoks=\toks28
-\@floatcapt=\box35
-)
 (/usr/local/texlive/2010/texmf-dist/tex/latex/graphics/lscape.sty
 Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 (/usr/local/texlive/2010/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
-\heavyrulewidth=\dimen130
-\lightrulewidth=\dimen131
-\cmidrulewidth=\dimen132
-\belowrulesep=\dimen133
-\belowbottomsep=\dimen134
-\aboverulesep=\dimen135
-\abovetopsep=\dimen136
-\cmidrulesep=\dimen137
-\cmidrulekern=\dimen138
-\defaultaddspace=\dimen139
-\@cmidla=\count122
-\@cmidlb=\count123
-\@aboverulesep=\dimen140
-\@belowrulesep=\dimen141
-\@thisruleclass=\count124
-\@lastruleclass=\count125
-\@thisrulewidth=\dimen142
+\heavyrulewidth=\dimen131
+\lightrulewidth=\dimen132
+\cmidrulewidth=\dimen133
+\belowrulesep=\dimen134
+\belowbottomsep=\dimen135
+\aboverulesep=\dimen136
+\abovetopsep=\dimen137
+\cmidrulesep=\dimen138
+\cmidrulekern=\dimen139
+\defaultaddspace=\dimen140
+\@cmidla=\count127
+\@cmidlb=\count128
+\@aboverulesep=\dimen141
+\@belowrulesep=\dimen142
+\@thisruleclass=\count129
+\@lastruleclass=\count130
+\@thisrulewidth=\dimen143
 )
 (/usr/local/texlive/2010/texmf-dist/tex/latex/rotating/rotating.sty
 Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
-\c@r@tfl@t=\count126
-\rotFPtop=\skip62
-\rotFPbot=\skip63
+\c@r@tfl@t=\count131
+\rotFPtop=\skip64
+\rotFPbot=\skip65
 \rot@float@box=\box36
-\rot@mess@toks=\toks29
+\rot@mess@toks=\toks30
 )
 (/usr/local/texlive/2010/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2000/12/01 6.7 Contributed and Supported LaTeX2e package
@@ -502,38 +526,38 @@ Package: `setspace' 6.7 <2000/12/01>
 Pagestyle and spacing normal
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/sc' in size <14.4> not available
-(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 65.
+(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 67.
 
-LaTeX Font Info:    Try loading font information for U+lasy on input line 65.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 67.
 (/usr/local/texlive/2010/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 65.
+LaTeX Font Info:    Try loading font information for U+msa on input line 67.
 
 (/usr/local/texlive/2010/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 65.
+LaTeX Font Info:    Try loading font information for U+msb on input line 67.
 
 (/usr/local/texlive/2010/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/sc' in size <12> not available
-(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 65.
+(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 67.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--65
+Underfull \hbox (badness 10000) in paragraph at lines 67--67
 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmtt on input line 65.
+LaTeX Font Info:    Try loading font information for OMS+cmtt on input line 67.
 
-LaTeX Font Info:    No file OMScmtt.fd. on input line 65.
+LaTeX Font Info:    No file OMScmtt.fd. on input line 67.
 
 LaTeX Font Warning: Font shape `OMS/cmtt/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbackslash' on input line 65.
+(Font)              for symbol `textbackslash' on input line 67.
 
 [1{/usr/local/texlive/2010/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
@@ -542,7 +566,7 @@ LaTeX Font Warning: Font shape `OMS/cmtt/m/n' undefined
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.65 \maketitle
+l.67 \maketitle
                 [1
 
 
@@ -552,7 +576,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.77 \end{abstract}
+l.79 \end{abstract}
                     [1
 
 ]
@@ -561,253 +585,882 @@ Dedication page
 
 ]
 
-./dissertation.tex:85: LaTeX Error: Something's wrong--perhaps a missing \item.
+./dissertation.tex:92: LaTeX Error: Something's wrong--perhaps a missing \item.
 
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.85 \tableofcontents
+l.92 \tableofcontents
                      
 ? 
-(./dissertation.toc)
+(./dissertation.toc [3
+
+
+])
 \tf@toc=\write4
 \openout4 = `dissertation.toc'.
 
- [3
-
-
-]
+ [4]
 List of figures - FIGURES
-(./dissertation.lof)
+(./dissertation.lof [5
+
+])
 \tf@lof=\write5
 \openout5 = `dissertation.lof'.
 
- [4
-
-]
+ [6]
 List of tables - TABLES
 (./dissertation.lot)
 \tf@lot=\write6
 \openout6 = `dissertation.lot'.
 
 
-Preface page
-[5
-
-] [6
-
-]
 Acknowledgment page
 [7
 
+] [8
 
 ]
-Symbols page
-[8
-
-
-]
-CHAPTER 0.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 116.
-
-(/usr/local/texlive/2010/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 116.
- [1
-
-
-]
-
-Package natbib Warning: Citation `gairley2000' on page 2 undefined on input lin
-e 148.
-
-[2]
 \openout2 = `chapter1.aux'.
 
  (./chapter1.tex
 CHAPTER 1.
-
-Package natbib Warning: Citation `gnus98:_gerry_ganst' on page 3 undefined on i
-nput line 41.
+[1
 
 
-Package natbib Warning: Citation `greenfield96:_gettin_know_gnu' on page 3 unde
-fined on input line 41.
-
-[3
 
 
-]
-Underfull \hbox (badness 10000) in alignment at lines 80--80
-[][][][][][][][] 
+] [2]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 42.
+ (/usr/local/texlive/2010/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 42.
+
+Overfull \hbox (0.88596pt too wide) in paragraph at lines 42--43
+[]\OT1/cmr/m/n/12 Smartphone mon-i-tor-ing sys-tem: By col-lect-ing data on An-
+droid smart-phones,
  []
 
+[3]
 
-./chapter1.tex:109: LaTeX Error: File `sample_nd' not found.
+LaTeX Warning: Reference `sec:related_work' on page 4 undefined on input line 5
+2.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.109 ...e{\includegraphics[scale=0.8]{sample_nd}}
-                                                  
-? 
-[4pdfTeX warning (ext4): destination with the same identifier (name{table.1.1})
- has been already used, duplicate ignored
 
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.125 
-      ] [5pdfTeX warning (ext4): destination with the same identifier (name{tab
-le.1.2}) has been already used, duplicate ignored
+LaTeX Warning: Reference `sec:dataset' on page 4 undefined on input line 52.
 
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.125 
-      pdfTeX warning (ext4): destination with the same identifier (name{figure.
-1.1}) has been already used, duplicate ignored
 
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.125 
-      ]) [6]
+LaTeX Warning: Reference `sec:potential' on page 4 undefined on input line 52.
+
+
+LaTeX Warning: Reference `sec:conclusion' on page 4 undefined on input line 52.
+
+
+) [4]
 \openout2 = `chapter2.aux'.
 
  (./chapter2.tex
 CHAPTER 2.
-
-Package natbib Warning: Citation `gloonson98:_gnuly_discov_gnus' on page 7 unde
-fined on input line 55.
-
-[7
+[5
 
 
 
-]
-Overfull \hbox (11.95885pt too wide) in alignment at lines 77--83
- [] [] [] [] [] [] 
+] [6]
+Package epstopdf Info: Source file: <graphs/Figure1.eps>
+(epstopdf)                    date: 2012-05-06 17:01:01
+(epstopdf)                    size: 329567 bytes
+(epstopdf)             Output file: <graphs/Figure1-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-01-08 16:03:40
+(epstopdf)                    size: 28315 bytes
+(epstopdf)             Command: <repstopdf --outfile=graphs/Figure1-eps-convert
+ed-to.pdf graphs/Figure1.eps>
+(epstopdf)             \includegraphics on input line 38.
+Package epstopdf Info: Output file is already uptodate.
+
+<graphs/Figure1-eps-converted-to.pdf, id=430, 466.74374pt x 394.47375pt>
+File: graphs/Figure1-eps-converted-to.pdf Graphic file (type pdf)
+
+<use graphs/Figure1-eps-converted-to.pdf>
+Overfull \hbox (31.57478pt too wide) in paragraph at lines 46--54
+ [][] 
+ []
+
+Package epstopdf Info: Source file: <graphs/system.eps>
+(epstopdf)                    date: 2012-08-31 12:50:00
+(epstopdf)                    size: 440870 bytes
+(epstopdf)             Output file: <graphs/system-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-01-08 13:40:50
+(epstopdf)                    size: 52477 bytes
+(epstopdf)             Command: <repstopdf --outfile=graphs/system-eps-converte
+d-to.pdf graphs/system.eps>
+(epstopdf)             \includegraphics on input line 60.
+Package epstopdf Info: Output file is already uptodate.
+<graphs/system-eps-converted-to.pdf, id=432, 677.53125pt x 296.10625pt>
+File: graphs/system-eps-converted-to.pdf Graphic file (type pdf)
+
+<use graphs/system-eps-converted-to.pdf>
+Overfull \hbox (17.62pt too wide) in paragraph at lines 60--61
+ [][] 
+ []
+
+[7pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.67 
+      <./graphs/Figure1-eps-converted-to.pdf>] [8pdfTeX warning (ext4): destina
+tion with the same identifier (name{table.2.1}) has been already used, duplicat
+e ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.67 
+     pdfTeX warning (ext4): destination with the same identifier (name{figure.2
+.2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.67 
+      <./graphs/system-eps-converted-to.pdf>] [9]
+Underfull \hbox (badness 1939) in paragraph at lines 86--86
+\OT1/cmr/m/n/12 De-vices Within Project (RSSI
  []
 
 
-Overfull \hbox (11.95885pt too wide) in alignment at lines 83--90
- [] [] [] [] [] [] 
+Overfull \hbox (2.83124pt too wide) in paragraph at lines 75--92
+ [][] 
+ []
+
+<graphs/num_cdf.pdf, id=468, 419.5675pt x 313.17pt>
+File: graphs/num_cdf.pdf Graphic file (type pdf)
+ <use graphs/num_cdf.pdf>
+[10pdfTeX warning (ext4): destination with the same identifier (name{figure.2.3
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.103 
+       <./graphs/num_cdf.pdf>] [11] [12pdfTeX warning (ext4): destination with 
+the same identifier (name{table.2.2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.104 \begin{landscape}
+                       ]
+Overfull \hbox (35.84145pt too wide) in paragraph at lines 123--125
+ [][] 
+ []
+
+[13pdfTeX warning (ext4): destination with the same identifier (name{table.2.3}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.126 \end{landscape}
+                     ])
+\openout2 = `chapter3.aux'.
+
+ (./chapter3.tex
+CHAPTER 3.
+[14
+
+
+
+
+
+] [15]
+Missing character: There is no Õ in font cmr12!
+Missing character: There is no Ò in font cmr12!
+Missing character: There is no Ó in font cmr12!
+ [16] [17pdfTeX warning (ext4): destination with the same identifier (name{tabl
+e.3.1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.35 
+     ]
+Package epstopdf Info: Source file: <graphs/Figure2.eps>
+(epstopdf)                    date: 2011-10-17 21:06:40
+(epstopdf)                    size: 82015 bytes
+(epstopdf)             Output file: <graphs/Figure2-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-01-08 14:17:05
+(epstopdf)                    size: 26925 bytes
+(epstopdf)             Command: <repstopdf --outfile=graphs/Figure2-eps-convert
+ed-to.pdf graphs/Figure2.eps>
+(epstopdf)             \includegraphics on input line 38.
+Package epstopdf Info: Output file is already uptodate.
+ <graphs/Figure2-eps-converted-to.pdf, id=610, 316.18124pt x 238.8925pt>
+File: graphs/Figure2-eps-converted-to.pdf Graphic file (type pdf)
+
+<use graphs/Figure2-eps-converted-to.pdf> [18pdfTeX warning (ext4): destination
+ with the same identifier (name{figure.3.1}) has been already used, duplicate i
+gnored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.45 
+      <./graphs/Figure2-eps-converted-to.pdf>] [19]
+Package epstopdf Info: Source file: <graphs/Figure4.eps>
+(epstopdf)                    date: 2011-12-13 14:45:56
+(epstopdf)                    size: 102703 bytes
+(epstopdf)             Output file: <graphs/Figure4-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-01-08 14:17:06
+(epstopdf)                    size: 31898 bytes
+(epstopdf)             Command: <repstopdf --outfile=graphs/Figure4-eps-convert
+ed-to.pdf graphs/Figure4.eps>
+(epstopdf)             \includegraphics on input line 66.
+Package epstopdf Info: Output file is already uptodate.
+
+<graphs/Figure4-eps-converted-to.pdf, id=683, 321.2pt x 246.9225pt>
+File: graphs/Figure4-eps-converted-to.pdf Graphic file (type pdf)
+
+<use graphs/Figure4-eps-converted-to.pdf>
+Package epstopdf Info: Source file: <graphs/Figure5.eps>
+(epstopdf)                    date: 2011-12-13 14:47:38
+(epstopdf)                    size: 185838 bytes
+(epstopdf)             Output file: <graphs/Figure5-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-01-08 14:17:06
+(epstopdf)                    size: 61138 bytes
+(epstopdf)             Command: <repstopdf --outfile=graphs/Figure5-eps-convert
+ed-to.pdf graphs/Figure5.eps>
+(epstopdf)             \includegraphics on input line 74.
+Package epstopdf Info: Output file is already uptodate.
+
+<graphs/Figure5-eps-converted-to.pdf, id=685, 314.17375pt x 251.94125pt>
+File: graphs/Figure5-eps-converted-to.pdf Graphic file (type pdf)
+
+<use graphs/Figure5-eps-converted-to.pdf> [20]
+Package epstopdf Info: Source file: <graphs/Figure6.eps>
+(epstopdf)                    date: 2011-12-13 15:12:48
+(epstopdf)                    size: 241554 bytes
+(epstopdf)             Output file: <graphs/Figure6-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-01-08 14:17:06
+(epstopdf)                    size: 76250 bytes
+(epstopdf)             Command: <repstopdf --outfile=graphs/Figure6-eps-convert
+ed-to.pdf graphs/Figure6.eps>
+(epstopdf)             \includegraphics on input line 82.
+Package epstopdf Info: Output file is already uptodate.
+
+<graphs/Figure6-eps-converted-to.pdf, id=692, 318.18875pt x 253.94875pt>
+File: graphs/Figure6-eps-converted-to.pdf Graphic file (type pdf)
+
+<use graphs/Figure6-eps-converted-to.pdf> [21pdfTeX warning (ext4): destination
+ with the same identifier (name{figure.3.2}) has been already used, duplicate i
+gnored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.86 
+      <./graphs/Figure4-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <graphs/Figure7.eps>
+(epstopdf)                    date: 2011-12-13 15:13:37
+(epstopdf)                    size: 243264 bytes
+(epstopdf)             Output file: <graphs/Figure7-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-01-08 14:17:07
+(epstopdf)                    size: 75581 bytes
+(epstopdf)             Command: <repstopdf --outfile=graphs/Figure7-eps-convert
+ed-to.pdf graphs/Figure7.eps>
+(epstopdf)             \includegraphics on input line 89.
+Package epstopdf Info: Output file is already uptodate.
+
+<graphs/Figure7-eps-converted-to.pdf, id=742, 319.1925pt x 253.94875pt>
+File: graphs/Figure7-eps-converted-to.pdf Graphic file (type pdf)
+
+<use graphs/Figure7-eps-converted-to.pdf>
+Package epstopdf Info: Source file: <graphs/Figure8.eps>
+(epstopdf)                    date: 2011-12-13 15:16:08
+(epstopdf)                    size: 238701 bytes
+(epstopdf)             Output file: <graphs/Figure8-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-01-08 14:17:07
+(epstopdf)                    size: 72621 bytes
+(epstopdf)             Command: <repstopdf --outfile=graphs/Figure8-eps-convert
+ed-to.pdf graphs/Figure8.eps>
+(epstopdf)             \includegraphics on input line 98.
+Package epstopdf Info: Output file is already uptodate.
+
+<graphs/Figure8-eps-converted-to.pdf, id=744, 319.1925pt x 253.94875pt>
+File: graphs/Figure8-eps-converted-to.pdf Graphic file (type pdf)
+
+<use graphs/Figure8-eps-converted-to.pdf> [22pdfTeX warning (ext4): destination
+ with the same identifier (name{figure.3.3}) has been already used, duplicate i
+gnored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.105 \subsection
+                 {Proximity Estimation Model} <./graphs/Figure5-eps-converted-t
+o.pdf>] [23pdfTeX warning (ext4): destination with the same identifier (name{fi
+gure.3.4}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.105 \subsection
+                 {Proximity Estimation Model}pdfTeX warning (ext4): destination
+ with the same identifier (name{figure.3.5}) has been already used, duplicate i
+gnored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.105 \subsection
+                 {Proximity Estimation Model} <./graphs/Figure6-eps-converted-t
+o.pdf> <./graphs/Figure7-eps-converted-to.pdf>] [24pdfTeX warning (ext4): desti
+nation with the same identifier (name{figure.3.6}) has been already used, dupli
+cate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.110 
+       <./graphs/Figure8-eps-converted-to.pdf>] [25pdfTeX warning (ext4): desti
+nation with the same identifier (name{table.3.2}) has been already used, duplic
+ate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.132 
+      ]
+Package epstopdf Info: Source file: <graphs/Figure9.eps>
+(epstopdf)                    date: 2013-03-19 10:37:42
+(epstopdf)                    size: 237787 bytes
+(epstopdf)             Output file: <graphs/Figure9-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-01-08 14:52:10
+(epstopdf)                    size: 58939 bytes
+(epstopdf)             Command: <repstopdf --outfile=graphs/Figure9-eps-convert
+ed-to.pdf graphs/Figure9.eps>
+(epstopdf)             \includegraphics on input line 135.
+Package epstopdf Info: Output file is already uptodate.
+ <graphs/Figure9-eps-converted-to.pdf, id=956, 208.78pt x 362.35374pt>
+File: graphs/Figure9-eps-converted-to.pdf Graphic file (type pdf)
+
+<use graphs/Figure9-eps-converted-to.pdf> [26pdfTeX warning (ext4): destination
+ with the same identifier (name{figure.3.7}) has been already used, duplicate i
+gnored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.141 
+       <./graphs/Figure9-eps-converted-to.pdf>]
+Overfull \hbox (3.41972pt too wide) in paragraph at lines 142--144
+[]\OT1/cmr/m/it/12 Single Thresh-old: \OT1/cmr/m/n/12 Af-ter data col-lec-tion,
+ the cor-re-spond-ing RSSI value (-52dBm)
+ []
+
+[27pdfTeX warning (ext4): destination with the same identifier (name{table.3.3}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.178 
+      ] [28pdfTeX warning (ext4): destination with the same identifier (name{ta
+ble.3.4}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.192 \begin{flalign}
+                     ]
+Overfull \hbox (22.85034pt too wide) in paragraph at lines 209--222
+ [][] 
+ []
+
+[29]
+Package epstopdf Info: Source file: <graphs/Figure10.eps>
+(epstopdf)                    date: 2011-01-12 18:35:42
+(epstopdf)                    size: 17550 bytes
+(epstopdf)             Output file: <graphs/Figure10-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-01-08 14:52:52
+(epstopdf)                    size: 13565 bytes
+(epstopdf)             Command: <repstopdf --outfile=graphs/Figure10-eps-conver
+ted-to.pdf graphs/Figure10.eps>
+(epstopdf)             \includegraphics on input line 232.
+Package epstopdf Info: Output file is already uptodate.
+ <graphs/Figure10-eps-converted-to.pdf, id=991, 449.68pt x 338.26375pt>
+File: graphs/Figure10-eps-converted-to.pdf Graphic file (type pdf)
+
+<use graphs/Figure10-eps-converted-to.pdf>
+Package epstopdf Info: Source file: <graphs/Figure11.eps>
+(epstopdf)                    date: 2011-12-16 13:02:19
+(epstopdf)                    size: 48167 bytes
+(epstopdf)             Output file: <graphs/Figure11-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-01-08 14:52:52
+(epstopdf)                    size: 18906 bytes
+(epstopdf)             Command: <repstopdf --outfile=graphs/Figure11-eps-conver
+ted-to.pdf graphs/Figure11.eps>
+(epstopdf)             \includegraphics on input line 239.
+Package epstopdf Info: Output file is already uptodate.
+
+<graphs/Figure11-eps-converted-to.pdf, id=992, 296.10625pt x 237.88875pt>
+File: graphs/Figure11-eps-converted-to.pdf Graphic file (type pdf)
+
+<use graphs/Figure11-eps-converted-to.pdf> [30pdfTeX warning (ext4): destinatio
+n with the same identifier (name{table.3.5}) has been already used, duplicate i
+gnored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.245 
+      ] [31pdfTeX warning (ext4): destination with the same identifier (name{fi
+gure.3.8}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.245 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+3.9}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.245 
+       <./graphs/Figure10-eps-converted-to.pdf> <./graphs/Figure11-eps-converte
+d-to.pdf>] [32pdfTeX warning (ext4): destination with the same identifier (name
+{table.3.6}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.263 
+      ] [33]
+Underfull \hbox (badness 10000) in paragraph at lines 293--293
+[]\OT1/cmr/m/n/12 Indoor in-side
  []
 
 
-Overfull \hbox (11.95885pt too wide) in alignment at lines 90--101
- [] [] [] [] [] [] 
+Underfull \hbox (badness 10000) in paragraph at lines 293--293
+\OT1/cmr/m/n/12 back-pack fact-
  []
 
 
-Overfull \hbox (11.95885pt too wide) in alignment at lines 101--103
- [] [] [] [] [] [] 
+Underfull \hbox (badness 10000) in paragraph at lines 294--294
+[]\OT1/cmr/m/n/12 Outdoor in-side
  []
 
 
-Overfull \hbox (11.95885pt too wide) in alignment at lines 103--124
- [] [] [] [] [] [] 
+Underfull \hbox (badness 10000) in paragraph at lines 294--294
+\OT1/cmr/m/n/12 back-pack fact-
  []
 
+[34pdfTeX warning (ext4): destination with the same identifier (name{table.3.7}
+) has been already used, duplicate ignored
 
-Overfull \hbox (11.95885pt too wide) in alignment at lines 124--144
- [] [] [] [] [] [] 
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.304 \end{table}
+                 ]
+Package epstopdf Info: Source file: <graphs/Figure12.eps>
+(epstopdf)                    date: 2012-05-04 16:58:49
+(epstopdf)                    size: 333595 bytes
+(epstopdf)             Output file: <graphs/Figure12-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-01-08 14:52:53
+(epstopdf)                    size: 28781 bytes
+(epstopdf)             Command: <repstopdf --outfile=graphs/Figure12-eps-conver
+ted-to.pdf graphs/Figure12.eps>
+(epstopdf)             \includegraphics on input line 308.
+Package epstopdf Info: Output file is already uptodate.
+
+<graphs/Figure12-eps-converted-to.pdf, id=1075, 509.905pt x 204.765pt>
+File: graphs/Figure12-eps-converted-to.pdf Graphic file (type pdf)
+
+<use graphs/Figure12-eps-converted-to.pdf>
+Overfull \hbox (17.62pt too wide) in paragraph at lines 308--309
+ [][] 
  []
 
-[8]
-Overfull \hbox (11.95885pt too wide) in alignment at lines 144--146
- [] [] [] [] [] [] 
- []
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
+put line 314.
+[35pdfTeX warning (ext4): destination with the same identifier (name{table.3.8}
+) has been already used, duplicate ignored
 
-[9]) [10]
-\openout2 = `appendix.aux'.
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.330 
+      ] [36pdfTeX warning (ext4): destination with the same identifier (name{fi
+gure.3.10}) has been already used, duplicate ignored
 
- (./appendix.tex
-APPENDIX A.
-[11
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.330 
+       <./graphs/Figure12-eps-converted-to.pdf>]
+
+LaTeX Warning: Reference `sec:system' on page 37 undefined on input line 349.
+
+[37pdfTeX warning (ext4): destination with the same identifier (name{table.3.9}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.350 
+      ]
+Package epstopdf Info: Source file: <graphs/Figure13.eps>
+(epstopdf)                    date: 2011-10-23 14:33:12
+(epstopdf)                    size: 405668 bytes
+(epstopdf)             Output file: <graphs/Figure13-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-01-08 14:56:43
+(epstopdf)                    size: 38078 bytes
+(epstopdf)             Command: <repstopdf --outfile=graphs/Figure13-eps-conver
+ted-to.pdf graphs/Figure13.eps>
+(epstopdf)             \includegraphics on input line 356.
+Package epstopdf Info: Output file is already uptodate.
+ <graphs/Figure13-eps-converted-to.pdf, id=1112, 329.23pt x 413.545pt>
+File: graphs/Figure13-eps-converted-to.pdf Graphic file (type pdf)
+
+<use graphs/Figure13-eps-converted-to.pdf> [38] [39pdfTeX warning (ext4): desti
+nation with the same identifier (name{figure.3.11}) has been already used, dupl
+icate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.380 
+       <./graphs/Figure13-eps-converted-to.pdf>] [40pdfTeX warning (ext4): dest
+ination with the same identifier (name{table.3.10}) has been already used, dupl
+icate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.383 
+      ] [41]
+Package epstopdf Info: Source file: <graphs/Figure14.eps>
+(epstopdf)                    date: 2011-11-20 15:10:55
+(epstopdf)                    size: 741706 bytes
+(epstopdf)             Output file: <graphs/Figure14-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-01-08 14:56:43
+(epstopdf)                    size: 300641 bytes
+(epstopdf)             Command: <repstopdf --outfile=graphs/Figure14-eps-conver
+ted-to.pdf graphs/Figure14.eps>
+(epstopdf)             \includegraphics on input line 408.
+Package epstopdf Info: Output file is already uptodate.
+
+<graphs/Figure14-eps-converted-to.pdf, id=1139, 759.83875pt x 617.30624pt>
+File: graphs/Figure14-eps-converted-to.pdf Graphic file (type pdf)
+
+<use graphs/Figure14-eps-converted-to.pdf>
+Package epstopdf Info: Source file: <graphs/Figure15.eps>
+(epstopdf)                    date: 2011-11-18 07:34:53
+(epstopdf)                    size: 64368 bytes
+(epstopdf)             Output file: <graphs/Figure15-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-01-08 14:56:44
+(epstopdf)                    size: 25572 bytes
+(epstopdf)             Command: <repstopdf --outfile=graphs/Figure15-eps-conver
+ted-to.pdf graphs/Figure15.eps>
+(epstopdf)             \includegraphics on input line 434.
+Package epstopdf Info: Output file is already uptodate.
+
+<graphs/Figure15-eps-converted-to.pdf, id=1147, 316.18124pt x 242.9075pt>
+File: graphs/Figure15-eps-converted-to.pdf Graphic file (type pdf)
+
+<use graphs/Figure15-eps-converted-to.pdf> [42pdfTeX warning (ext4): destinatio
+n with the same identifier (name{table.3.11}) has been already used, duplicate 
+ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.437 \end{figure}
+                  ] [43pdfTeX warning (ext4): destination with the same identif
+ier (name{figure.3.12}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.439 \subsection
+                 {Proximity in small group}pdfTeX warning (ext4): destination w
+ith the same identifier (name{figure.3.13}) has been already used, duplicate ig
+nored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.439 \subsection
+                 {Proximity in small group} <./graphs/Figure14-eps-converted-to
+.pdf> <./graphs/Figure15-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <graphs/Figure16.eps>
+(epstopdf)                    date: 2012-10-10 13:41:34
+(epstopdf)                    size: 54122 bytes
+(epstopdf)             Output file: <graphs/Figure16-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-01-08 14:56:44
+(epstopdf)                    size: 46023 bytes
+(epstopdf)             Command: <repstopdf --outfile=graphs/Figure16-eps-conver
+ted-to.pdf graphs/Figure16.eps>
+(epstopdf)             \includegraphics on input line 445.
+Package epstopdf Info: Output file is already uptodate.
+
+<graphs/Figure16-eps-converted-to.pdf, id=1212, 285.065pt x 244.915pt>
+File: graphs/Figure16-eps-converted-to.pdf Graphic file (type pdf)
+
+<use graphs/Figure16-eps-converted-to.pdf>
+Package epstopdf Info: Source file: <graphs/Figure17.eps>
+(epstopdf)                    date: 2012-10-10 13:43:05
+(epstopdf)                    size: 55277 bytes
+(epstopdf)             Output file: <graphs/Figure17-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-01-08 14:56:44
+(epstopdf)                    size: 51111 bytes
+(epstopdf)             Command: <repstopdf --outfile=graphs/Figure17-eps-conver
+ted-to.pdf graphs/Figure17.eps>
+(epstopdf)             \includegraphics on input line 452.
+Package epstopdf Info: Output file is already uptodate.
+
+<graphs/Figure17-eps-converted-to.pdf, id=1213, 283.0575pt x 248.93pt>
+File: graphs/Figure17-eps-converted-to.pdf Graphic file (type pdf)
+
+<use graphs/Figure17-eps-converted-to.pdf> [44pdfTeX warning (ext4): destinatio
+n with the same identifier (name{table.3.12}) has been already used, duplicate 
+ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.458 
+      ] [45pdfTeX warning (ext4): destination with the same identifier (name{fi
+gure.3.14}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.458 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+3.15}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.458 
+       <./graphs/Figure16-eps-converted-to.pdf> <./graphs/Figure17-eps-converte
+d-to.pdf>]
+Package epstopdf Info: Source file: <graphs/Figure18.eps>
+(epstopdf)                    date: 2012-11-06 16:53:01
+(epstopdf)                    size: 51787 bytes
+(epstopdf)             Output file: <graphs/Figure18-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-01-08 14:56:45
+(epstopdf)                    size: 33987 bytes
+(epstopdf)             Command: <repstopdf --outfile=graphs/Figure18-eps-conver
+ted-to.pdf graphs/Figure18.eps>
+(epstopdf)             \includegraphics on input line 463.
+Package epstopdf Info: Output file is already uptodate.
+
+<graphs/Figure18-eps-converted-to.pdf, id=1311, 284.06125pt x 243.91125pt>
+File: graphs/Figure18-eps-converted-to.pdf Graphic file (type pdf)
+
+<use graphs/Figure18-eps-converted-to.pdf>
+Package epstopdf Info: Source file: <graphs/Figure19.eps>
+(epstopdf)                    date: 2012-10-10 13:44:21
+(epstopdf)                    size: 47888 bytes
+(epstopdf)             Output file: <graphs/Figure19-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-01-08 14:56:45
+(epstopdf)                    size: 24053 bytes
+(epstopdf)             Command: <repstopdf --outfile=graphs/Figure19-eps-conver
+ted-to.pdf graphs/Figure19.eps>
+(epstopdf)             \includegraphics on input line 470.
+Package epstopdf Info: Output file is already uptodate.
+
+<graphs/Figure19-eps-converted-to.pdf, id=1312, 274.02374pt x 240.9pt>
+File: graphs/Figure19-eps-converted-to.pdf Graphic file (type pdf)
+
+<use graphs/Figure19-eps-converted-to.pdf> [46] [47pdfTeX warning (ext4): desti
+nation with the same identifier (name{figure.3.16}) has been already used, dupl
+icate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.477 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+3.17}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.477 
+       <./graphs/Figure18-eps-converted-to.pdf> <./graphs/Figure19-eps-converte
+d-to.pdf>]
+Package epstopdf Info: Source file: <graphs/Figure20.eps>
+(epstopdf)                    date: 2012-11-06 16:57:22
+(epstopdf)                    size: 47714 bytes
+(epstopdf)             Output file: <graphs/Figure20-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-01-08 14:56:45
+(epstopdf)                    size: 25016 bytes
+(epstopdf)             Command: <repstopdf --outfile=graphs/Figure20-eps-conver
+ted-to.pdf graphs/Figure20.eps>
+(epstopdf)             \includegraphics on input line 480.
+Package epstopdf Info: Output file is already uptodate.
+
+<graphs/Figure20-eps-converted-to.pdf, id=1420, 283.0575pt x 243.91125pt>
+File: graphs/Figure20-eps-converted-to.pdf Graphic file (type pdf)
+
+<use graphs/Figure20-eps-converted-to.pdf>
+Package epstopdf Info: Source file: <graphs/Figure21.eps>
+(epstopdf)                    date: 2011-12-14 11:01:02
+(epstopdf)                    size: 48351 bytes
+(epstopdf)             Output file: <graphs/Figure21-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-01-08 14:56:46
+(epstopdf)                    size: 20861 bytes
+(epstopdf)             Command: <repstopdf --outfile=graphs/Figure21-eps-conver
+ted-to.pdf graphs/Figure21.eps>
+(epstopdf)             \includegraphics on input line 487.
+Package epstopdf Info: Output file is already uptodate.
+
+<graphs/Figure21-eps-converted-to.pdf, id=1421, 293.095pt x 243.91125pt>
+File: graphs/Figure21-eps-converted-to.pdf Graphic file (type pdf)
+
+<use graphs/Figure21-eps-converted-to.pdf> [48pdfTeX warning (ext4): destinatio
+n with the same identifier (name{figure.3.18}) has been already used, duplicate
+ ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.494 
+       <./graphs/Figure20-eps-converted-to.pdf>] [49pdfTeX warning (ext4): dest
+ination with the same identifier (name{figure.3.19}) has been already used, dup
+licate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.499 \item W
+             e study the relationship between the value of Bluetooth RSSI an...
+ <./graphs/Figure21-eps-converted-to.pdf>]) [50]
+\openout2 = `chapter4.aux'.
+
+ (./chapter4.tex
+CHAPTER 4.
+[51
 
 
 
-] [12pdfTeX warning (ext4): destination with the same identifier (name{table.A.
+] [52pdfTeX warning (ext4): destination with the same identifier (name{table.4.
 1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.56 \end{landscape}
-                    ]
+l.49 
+     ] [53] <graphs/avg_downlink2.pdf, id=1573, 390.45876pt x 313.17pt>
+File: graphs/avg_downlink2.pdf Graphic file (type pdf)
 
-Package natbib Warning: Citation `galmira98:_gnus_milit' on page 13 undefined o
-n input line 63.
+<use graphs/avg_downlink2.pdf>
+<graphs/traffic_0202.pdf, id=1578, 393.47pt x 313.17pt>
+File: graphs/traffic_0202.pdf Graphic file (type pdf)
+
+<use graphs/traffic_0202.pdf> [54]
+<graphs/weak_wifi_68.pdf, id=1583, 395.4775pt x 313.17pt>
+File: graphs/weak_wifi_68.pdf Graphic file (type pdf)
+
+<use graphs/weak_wifi_68.pdf> [55pdfTeX warning (ext4): destination with the sa
+me identifier (name{figure.4.1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.77 \end{figure}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{figure.4.2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.77 \end{figure}
+                  <./graphs/avg_downlink2.pdf> <./graphs/traffic_0202.pdf>]
+<graphs/weak_wifi_1012.pdf, id=1624, 395.4775pt x 313.17pt>
+File: graphs/weak_wifi_1012.pdf Graphic file (type pdf)
+
+<use graphs/weak_wifi_1012.pdf>
+<graphs/screen_0202.pdf, id=1626, 395.4775pt x 313.17pt>
+File: graphs/screen_0202.pdf Graphic file (type pdf)
+
+<use graphs/screen_0202.pdf> [56pdfTeX warning (ext4): destination with the sam
+e identifier (name{figure.4.3}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.100 
+       <./graphs/weak_wifi_68.pdf>] [57pdfTeX warning (ext4): destination with 
+the same identifier (name{figure.4.4}) has been already used, duplicate ignored
 
 
-Package natbib Warning: Citation `gairley2000' on page 13 undefined on input li
-ne 65.
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.100 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+4.5}) has been already used, duplicate ignored
 
-[13
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.100 
+       <./graphs/weak_wifi_1012.pdf> <./graphs/screen_0202.pdf>]
+<graphs/distribution.pdf, id=1686, 384.43625pt x 313.17pt>
+File: graphs/distribution.pdf Graphic file (type pdf)
 
+<use graphs/distribution.pdf> [58pdfTeX warning (ext4): destination with the sa
+me identifier (name{figure.4.6}) has been already used, duplicate ignored
 
-] [14
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.113 
+       <./graphs/distribution.pdf>]
+<graphs/number.pdf, id=1709, 369.38pt x 317.185pt>
+File: graphs/number.pdf Graphic file (type pdf)
+ <use graphs/number.pdf>
+<graphs/downlink.pdf, id=1711, 392.46625pt x 313.17pt>
+File: graphs/downlink.pdf Graphic file (type pdf)
 
-] [15]) (./dissertation.bbl)
+<use graphs/downlink.pdf> [59pdfTeX warning (ext4): destination with the same i
+dentifier (name{figure.4.7}) has been already used, duplicate ignored
 
-Package natbib Warning: There were undefined citations.
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.158 \end{figure}
+                   <./graphs/number.pdf>] [60pdfTeX warning (ext4): destination
+ with the same identifier (name{table.4.2}) has been already used, duplicate ig
+nored
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 189.
-[16
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.158 \end{figure}
+                  ] [61pdfTeX warning (ext4): destination with the same identif
+ier (name{figure.4.8}) has been already used, duplicate ignored
 
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.162 
+       <./graphs/downlink.pdf>]
+<graphs/screen2.pdf, id=1758, 380.42125pt x 313.17pt>
+File: graphs/screen2.pdf Graphic file (type pdf)
+ <use graphs/screen2.pdf>
+<graphs/duration2.pdf, id=1759, 380.42125pt x 313.17pt>
+File: graphs/duration2.pdf Graphic file (type pdf)
 
+<use graphs/duration2.pdf> [62pdfTeX warning (ext4): destination with the same 
+identifier (name{figure.4.9}) has been already used, duplicate ignored
 
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.175 \end{figure}
+                   <./graphs/screen2.pdf>]
+<graphs/dn2.pdf, id=1788, 380.42125pt x 313.17pt>
+File: graphs/dn2.pdf Graphic file (type pdf)
+ <use graphs/dn2.pdf> [63pdfTeX warning (ext4): destination with the same ident
+ifier (name{figure.4.10}) has been already used, duplicate ignored
 
-]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 189.
- (./dissertation.aux (./chapter1.aux) (./chapter2.aux) (./appendix.aux)
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.191 
+       <./graphs/duration2.pdf>]
+Overfull \hbox (24.45847pt too wide) in paragraph at lines 196--208
+ [][] 
+ []
 
-Package natbib Warning: Citation(s) may have changed.
-(natbib)                Rerun to get citations correct.
+[64pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1
+1}) has been already used, duplicate ignored
 
-)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 189.
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.242 
+       <./graphs/dn2.pdf>]
+<graphs/app_downlink.pdf, id=1846, 391.4625pt x 316.18124pt>
+File: graphs/app_downlink.pdf Graphic file (type pdf)
 
+<use graphs/app_downlink.pdf>
+<graphs/app_uplink.pdf, id=1847, 380.42125pt x 313.17pt>
+File: graphs/app_uplink.pdf Graphic file (type pdf)
 
-Package rerunfilecheck Warning: File `dissertation.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
+<use graphs/app_uplink.pdf> [65pdfTeX warning (ext4): destination with the same
+ identifier (name{table.4.3}) has been already used, duplicate ignored
 
-Package rerunfilecheck Info: Checksums for `dissertation.out':
-(rerunfilecheck)             Before: 70573F977F7F5A546C0D7CE6CDB927E8;1282
-(rerunfilecheck)             After:  DF98B4C10FB434B7CDB04238E2E158F0;1332.
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.266 
+      ] [66pdfTeX warning (ext4): destination with the same identifier (name{ta
+ble.4.4}) has been already used, duplicate ignored
 
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
- ) 
-Here is how much of TeX's memory you used:
- 6803 strings out of 493747
- 98042 string characters out of 3143546
- 189316 words of memory out of 3000000
- 9811 multiletter control sequences out of 15000+200000
- 17418 words of font info for 71 fonts, out of 3000000 for 9000
- 714 hyphenation exceptions out of 8191
- 39i,18n,34p,350b,512s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
-></usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxsl10.pf
-b></usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pf
-b></usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
-></usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><
-/usr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></u
-sr/local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/
-local/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/loc
-al/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/loca
-l/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local
-/texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/
-texlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/t
-exlive/2010/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on dissertation.pdf (26 pages, 181213 bytes).
-PDF statistics:
- 326 PDF objects out of 1000 (max. 8388607)
- 282 compressed objects within 3 object streams
- 61 named destinations out of 1000 (max. 500000)
- 161 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.266 
+      ] [67pdfTeX warning (ext4): dest

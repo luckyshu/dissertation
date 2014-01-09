@@ -48,7 +48,9 @@
 % \usepackage{chapterbib}
 % \renewcommand{\bibname}{Cited Works}
 % \renewcommand{\bibsection}{\section{\bibname}}
-
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\usepackage{multirow}
 \begin{document}
 
 \frontmatter
@@ -79,78 +81,27 @@
 \renewcommand{\dedicationname}{}
 
 \begin{dedication}
-  To my husband, Wei, who inspires me to exceed my potential. 
+  To my husband Wei
+  
+  and my loving parents
+  
+  who inspires me to exceed my potential.
+   
 \end{dedication}
 
 \tableofcontents
 \listoffigures
 \listoftables
 
-\begin{preface}
-\end{preface}
-
 \begin{acknowledge}
 I would like to thank my advisor, Dr. Aaron Striegel, who helped provide
-direction and guidance for this work. Without his trust and support, I would not have had the opportunity to work in such great research projects. I would also like to thank the members of my committee, Dr. Christian Poellabauer, Dr. David Hachen and Dr. Gregory Madey, for their time and support in this process.
+direction and guidance for this work. Without his trust and support, I would not have had the opportunity to work in such great research projects. I would also like to thank the members of my committee, Dr. Christian Poellabauer, Dr. David Hachen and Dr. Gregory Madey, who were more than generous with their expertise and precious time.
 
 I also need to thank all my colleagues who create such a good atmosphere in the group;
-Dr. Andrew Blaich, Dr. Yingxin Jiang, Dirk Van Bruggen, Lei Meng, Xueheng Hu, Benjamin Bockdtege, and Rachael Purta.  Also Margaret and Michael, deserve a special thanks because their great supports in the Netsense project. I need to further thank all my friends, Nikhil, Hongsheng and Mehrdad, who always took the time to listen. 
+Andrew Blaich, Yingxin Jiang, Dirk Van Bruggen, Lei Meng, Xueheng Hu, Benjamin Bockdtege, and Rachael Purta.  Also Margaret, Tylor and Michael, deserve a special thanks because their great help in the Netsense project. I need to further thank all my dear friends, Nikhil, Hongsheng, Chris, Pramita, Sal, Jun, Yihua and Mehrdad, for being there for me throughout the entire doctorate program. 
 \end{acknowledge}
 
-\begin{symbols} 
-\end{symbols}
-
 \mainmatter
-
-%
-% Chapter 0 (features)
-%
-\setcounter{chapter}{-1}
-\chapter{FEATURES OF FORMATTING IN THIS EXAMPLE FILE}
-
-This \verb+chapter+ has been added to the original sample file to highlight the
-various features with the formatting that conforms to the Graduate school
-guidelines --- whether obtained due to the use of \nddiss\/ class file or just
-plain good practice.
-\begin{itemize}
-\item An important thing you might notice is that the title of this chapter 
-is not in all CAPS. This is a feature since using \verb+\MakeTextUpperCase{}+ 
-is not helpful
-when you have a math formula or something that just doesnt go CAPS (for eg.
-elemental symbols).
-\item If you're looking at a pdf document, the pdf bookmarks (left column) link
-to all major textual sections including abstract, toc, lof, lot and
-bibliography.
-\item In the {\em dedication}, the title name has been modified. So, you know
-how to and that it can be done.
-\item The entries in the {\em List of figures} and {\em List of Tables} are
-single-spaced themselves but are double-spaced from the other.
-\item The table captions are not in all CAPS as well for the reason mentioned
-above.
-\item Appropriate space is left between the \verb+Table xx+ and its
-corresponding caption (which is double-spaced itself) as in table \ref{tbl:bogus1}.
-\item Tables look much better without the vertical lines (good practice).
-\item There is double-spacing between the table entries but single-spacing
-within the entry.
-\item The chapter (see Chapter \ref{chap:golfing}) or section titles are
-double-spaced as mentioned in the guidelines.
-\item There is a \verb+subsubsection+ present (eg. section \ref{sec:data}) and
-is properly formatted in the TOC.
-\item Table \ref{tbl:defs} is an example of the use of \textsf{landscape}
-environment in which a normal table is formatted in a {\em landscape} mode.
-\item The \textsf{longtable} environment is used in Tables \ref{tbl:votes} and
-\ref{tbl:rotated-rankings}, in normal and \verb+landscape+ mode, respectively. The
-table captions are formatted properly in both cases.
-\item In the table \ref{tbl:votes}, the \verb+footnote+ in the table header 
-does not appear at all. This is not an error of the \nddiss\/ class but of the
-\textsf{longtable} package.
-\item An example of citing a website is shown in the bibliography (see
-\citep{gairley2000}) which is formatted using the 
-\verb+nddiss2e.bst+
-citation style file.
-\item A bit of information on the \nddiss\/ class file and the typesetting program
-used is included in a box on the last page of the thesis.
-\end{itemize}
 
 %
 % Chapter 1
@@ -165,6 +116,33 @@ used is included in a box on the last page of the thesis.
 
 \include{chapter2}
 
+
+%
+% Chapter 3
+%
+
+\include{chapter3}
+
+
+%
+% Chapter 4
+%
+
+\include{chapter4}
+
+
+%
+% Chapter 5
+%
+
+\include{chapter5}
+
+
+%
+% Chapter 6
+%
+
+\include{chapter6}
 
 %
 % Appendix

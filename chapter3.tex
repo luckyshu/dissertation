@@ -16,7 +16,7 @@ Some proximity estimation methods are based on Cell or WiFi signal. Using Place 
 There are some proximity detection works using Bluetooth signal. From a specific work perspective, the works of Nathan et al. ~\cite{Nathan3,Nathan1} are highly relevant to the paper. In those studies, the authors use the ability to detect Bluetooth signals as indicators for people nearby within the Bluetooth range (around 10m). However, such indication does not meet the requirement of face-to-face proximity detection. In class, a student may discuss with others sitting beside him/her, but face-to-face talk is difficult with the students on the other side of the classroom even they are still in the Bluetooth range. Different from the above proximity detection method, our work is a fine grain Bluetooth-based proximity detection method which can provide adequate accuracy for face-to-face proximity estimation without environment limitations. Table~\ref{table:comparison} summarizes the differences of popular techniques, their prominent features and the performance~\cite{survey2,MobileLocation}. 
 
 \begin{table}[ht] 
-\caption{Different proximity estimation techniques comparison} 
+\caption{DIFFERENT PROXIMITY ESTIMATION TECHNIQUES COMPARISON} 
 \centering  
 \begin{tabular}{lccc}
 \hline
@@ -35,8 +35,8 @@ Based on the monitoring system described in Chapter~\ref{chap:dataset}, there ar
 
 \begin{figure}[h!tbp]
 \centering
-{\includegraphics[width=3.4in]{graphs/Figure2.eps}}
-\caption{Bluetooth RSSI values distribution in one week} 
+{\includegraphics[width=4in]{graphs/Figure2.eps}}
+\caption{Bluetooth RSSI Values Distribution in One Week} 
 \label{fig:multiphones}
 \end{figure}
 
@@ -63,8 +63,8 @@ However, such a model can only be utilized as a theoretical reference. Due to re
 Indoor experiments were conducted in a noisy hallway (around seven other Bluetooth devices detected) in the campus engineering building. Outdoor experiments were conducted in the open area outside the building. In the measurement there were no obstacles between the two phones and the antennas of the phones were aligned towards each other. In such a way, we tried to build up a relatively simple and ``ideal'' environment where the possible impact factors are reflection and noise only. We repeated the measurements over the period of an hour with the distance being increased by 0.5 meters between each round. Figure~\ref{fig:RSSI} shows the initial fluctuations of indoor RSSI results with different distances. Although the data varies significantly even within the same distance, there is a noticeable gap exists between different distances. Such results further shed light on the viability of using Bluetooth RSSI to indicate the face-to-face proximity.
 \begin{figure}[h!tbp]
 \centering
-{\includegraphics[width=3.5in]{graphs/Figure4.eps}}
-\caption{Initial indoor RSSI values with different distances} 
+{\includegraphics[width=4in]{graphs/Figure4.eps}}
+\caption{Initial Indoor RSSI Values with Different Distances} 
 \label{fig:RSSI}
 \end{figure}
 
@@ -72,7 +72,7 @@ In Figure~\ref{fig:theory}, we present indoor, outdoor, and theoretical results 
 \begin{figure}[h!tbp]
 \centering
 {\includegraphics[width=3.5in]{graphs/Figure5.eps}}
-\caption{Bluetooth RSSI vs. distance - theoretical, indoor, outdoor} 
+\caption{Bluetooth RSSI vs. Distance - Theoretical, Indoor \& Outdoor} 
 \label{fig:theory}
 \end{figure}
 
@@ -80,14 +80,14 @@ Furthermore, we performed similar experiments on two phones focusing on the indo
 \begin{figure}[h!tbp]
 \centering
 \includegraphics[width=3.5in]{graphs/Figure6.eps}
-\caption{Bluetooth RSSI vs. Distance indoor case} 
+\caption{Bluetooth RSSI vs. Distance Indoor Case} 
 \label{fig:inside}
 \end{figure}
 
 \begin{figure}[h!tbp]
 \centering
 \includegraphics[width=3.5in]{graphs/Figure7.eps}
-\caption{Symmetric RSSI values} 
+\caption{Symmetric RSSI Values} 
 \label{fig:inside_reverse}
 \end{figure}
 
@@ -96,7 +96,7 @@ Using the same method, we measured the RSSI values outdoors with the considerati
 \begin{figure}[h!tbp]
 \centering
 \includegraphics[width=3.5in]{graphs/Figure8.eps}
-\caption{Bluetooth RSSI vs. Distance outdoor case} 
+\caption{Bluetooth RSSI vs. Distance Outdoor Case} 
 \label{fig:outside}
 \end{figure}
 
@@ -109,7 +109,7 @@ As mentioned in the beginning, we aim to provide an accurate proximity estimatio
 When we have dinner with our friends sitting at the same table, the conversation among us is called face-to-face communication; or when we talk with someone side by side, the distance between us is also called face-to-face communication. In other words, face-to-face communication happens when people are close enough to have conversations in a convenient manner. People typically have such communication when they are sitting or walking together. Thus, we calculate the distance for this kind of communication by measuring distances across the campus (such as diagonal of desk in dinning hall, distance between desks in classrooms and etc.) and the average value is equal to 1.52m. The detailed samples are listed in Table~\ref{table:distance}. 
 
 \begin{table}[ht] 
-\caption{Distance of face-to-face communication around campus} 
+\caption{DISTANCE OF FACE-TO-FACE COMMUNICATION AROUND CAMPUS} 
 \centering  
 \begin{tabular}{lccc}
 \hline
@@ -133,7 +133,7 @@ The measurement was conducted as follows: two people with two phones walked side
 \begin{figure}[h!tbp]
 \centering
 {\includegraphics[width = 2.2in]{graphs/Figure9.eps}}
-\caption{Walk path for real-world scenario} 
+\caption{Walk Path for Real-world Scenario} 
 \label{fig:map}
 \end{figure} 
 
@@ -143,7 +143,7 @@ The whole process took 40 minutes and individuals were always within the distanc
 After data collection, the corresponding RSSI value (-52dBm) of direct communication distance (152cm) based on the indoor measurements (Figure~\ref{fig:inside}) was used as a threshold to estimate whether the individuals were in proximity. Accordingly, values less then \mbox{-52dBm} were considered as not in face-to-face proximity and labeled as a wrong estimation.
 
 \begin{table}[ht] 
-\caption{Error rate against real-world data} 
+\caption{ERROR RATE AGAINST REAL-WORLD DATA} 
 \centering  
 \begin{tabular}{lccc}
 \hline\hline 
@@ -159,7 +159,7 @@ Total samples & 246 \\ [0.6ex]
 
 \end{table}
 \begin{table}[ht] 
-\caption{Improved error rate with modified threshold} 
+\caption{IMPROVED ERROR RATE WITH MODIFIED THRESHOLD} 
 \centering  
 \begin{tabular}{lccc}
 \hline\hline 
@@ -184,7 +184,6 @@ In our opinion, the reasons for high error rates include:
 
 \emph{Multiple Thresholds:} 
 According to the reasons for high error rate analyzed above, we introduce the proximity estimation model which is a multiple threshold-based method with the consideration of data smoothing and different environmental effects.
-\vspace{2mm}
 
 i) Data Smoothing
 
@@ -204,7 +203,7 @@ E_{i}=s* RSSI_{i} + (1-s)E_{i-1}
 Based on real-world data as shown in Table~\ref{table:naive2}, we combine the data smoothing method with signal threshold filter to analyze the effects of data smoothing and select the best smoothing function. In Table~\ref{table:smoothing}, we compare three different combinations for window function and two types of smoothing factors. While the combination (0.3, 0.4, 0.3) exhibits good improvement of error rate in different scenarios compared with results in Table~\ref{table:naive2}, the EWMA methods with smoothing factor 0.5 is the best among the five options and we use it in the proximity estimation model.
 
 \begin{table}[ht] 
-\caption{Improved error rate with data smoothing} 
+\caption{IMPROVED ERROR RATE WITH DATA SMOOTHING} 
 \centering
 \begin{tabular}{|c|c|c|c|c|c|}
 \hline 
@@ -230,7 +229,7 @@ In Figure~\ref{fig:walkdata}, we reviewed the distribution of the Bluetooth RSSI
 \begin{figure}[h!tbp]
 \centering
 {\includegraphics[width=3.5in]{graphs/Figure10.eps}}
-\caption{Cdf of light sensor data in different environments} 
+\caption{Cdf of Light Sensor Data in Different Environments} 
 \label{fig:light}
 \end{figure} 
 
@@ -245,7 +244,7 @@ Thus, light sensor data is introduced to differentiate the circumstances to impr
 
 \begin{table}[ht] 
 \centering
-\caption{Environment Estimation with Light Sensor Data}
+\caption{ENVIRONMENT ESTIMATION WITH LIGHT SENSOR DATA}
 \begin{tabular}{cc}
 \hline\hline 
 Light Sensor Data & Environment Estimation\\ [0.3ex] 
@@ -269,7 +268,7 @@ For high and low probability zones, we name the minimum values in low probabilit
 
 \begin{table}[ht] 
 \centering
-\caption{ Definition of Zones in Different Environments} 
+\caption{DEFINITION OF ZONES IN DIFFERENT ENVIRONMENTS} 
 \begin{tabular}{lccc}
 \hline\hline 
 Zones &  Indoor & Outdoor & Inside Backpack \\ [0.3ex] 
@@ -284,7 +283,7 @@ Zones &  Indoor & Outdoor & Inside Backpack \\ [0.3ex]
 
 \begin{table}[ht] 
 \centering
-\caption{Boundary Summary}
+\caption{BOUNDARY SUMMARY}
 \begin{tabular}{llc}
 \hline\hline 
 Boundary &  \multicolumn{1}{c}{Detail} & Values(dBm) \\ [0.3ex] 
@@ -329,7 +328,7 @@ Boundary &  \multicolumn{1}{c}{Detail} & Values(dBm) \\ [0.3ex]
 We define \textit{Required Accuracy} (RA) as the lowest requirement for the probability to indicate two phones are in face-to-face proximity. With the improved estimation model, we analyze the data in the real-world scenario again and the error rate is improved greatly as shown in Table~\ref{table:improved}. Once \textit{p$_i$} is higher than 45\% ( RA = 45\%), the two phones are considered to be in the face-to-face proximity. The bigger the RA value is, the more accurate face-to-face proximity we can obtain. We choose 45\% as RA based on the following calculation: in each type of environment, the probability of the lowest possible value \textit{l} in high probability zone equals to (l-\textit{B$_{min}$}) divided by \textit{B$_{range}$}. The smallest one in three types of environments equals to 45\%.
 
 \begin{table}[ht] 
-\caption{Error rate against real-world data with proximity estimation model} 
+\caption{ERROR RATE AGAINST REAL-WORLD DATA WITH PROXIMITY ESTIMATION MODEL} 
 \centering  
 \begin{tabular}{lccc}
 \hline\hline 
@@ -354,14 +353,14 @@ We collected both network-provider location and GPS location data on the phone f
 \begin{figure}[h!tbp]
 \centering
 {\includegraphics[width=2.5in]{graphs/Figure13.eps}}
-\caption{Location data provided by WiFi and GPS} 
+\caption{Location Data Provided by WiFi and GPS} 
 \label{fig:wifi_gps}
 \end{figure} 
 
 Compared to the above WiFi triangulation and GPS methods, the Bluetooth-based method was more suitable for the face-to-face proximity estimation. As we mentioned before, there is no need to get the absolute location data to calculate the distance. Instead, we only need relative distance to do the estimation. From 3pm to 7pm on that day, we collected the Bluetooth RSSI on both phones and used the estimation model to do the analysis. When RA is 45\%, we got the error rate around 6\% with 554 sample data. Table~\ref{table: comparison2} summarizes the comparison results of accuracy and power consumption percentage by invoking each method with similar frequency. Compared with WiFi and GPS, out method is accurate enough to indicate the face-to-face proximity. At the same time, the power consumption is at least 40\% less than the other two technologies.  These results are consistent with the data in Table~\ref{table:comparison} and Bluetooth can definitely fulfill the requirements of proximity estimation in our system. 
 
 \begin{table}[ht] 
-\caption{Accuracy and power consumption comparisons} 
+\caption{ACCURACY AND POWER CONSUMPTION COMPARISONS} 
 \centering  
 \begin{tabular}{llcc}
 \hline
@@ -384,7 +383,7 @@ With the data reported by 196 phones over two months, we analyzed the proximity 
 Notably, the weekend included a home football game. Compared to the weekdays, more ``Proximity Detected" cases are reported on Saturday since many students watched the game together and sit in the same student zone. On Sunday, we observed significant  "None" cases which may indicate students stayed in their room or went home instead of interacting.
 
 \begin{table}[ht] 
-\caption{Proximity variation in a week} 
+\caption{PROXIMITY VARIATION IN A WEEK} 
 \centering  
 \begin{tabular}{ccccc}
 \hline
@@ -406,12 +405,12 @@ We look into the data on Tuesday in a more detailed way. Before we reveal the pr
 \begin{figure}[h!tbp]
 \centering
 {\includegraphics[width=3.5in]{graphs/Figure14.eps}}
-\caption{Light sensor data distribution on Tuesday} 
+\caption{Light Sensor Data Distribution on Tuesday} 
 \label{fig:light_tuesday}
 \end{figure}
 
 \begin{table}[ht] 
-\caption{Proximity variation on Tuesday Daytime} 
+\caption{PROXIMITY VARIATION ON TUESDAY DAYTIME} 
 \centering  
 \begin{tabular}{cccc}
 \hline
@@ -432,25 +431,25 @@ Critically, a method such as the one in ~\cite{Nathan3,Nathan1} would misdetect 
 \begin{figure}[h!tbp]
 \centering
 {\includegraphics[width=3.5in]{graphs/Figure15.eps}}
-\caption{Bluetooth RSSI values distribution on Tuesday} 
+\caption{Bluetooth RSSI Values Distribution on Tuesday} 
 \label{fig:bt_tuesday}
 \end{figure}
 
 \subsection{Proximity in small group}
 
-\subsubsection{Football Game Day}
+\emph{Football Game Day: }
 In 2011, the university had a football game with Air Force which lasted for four hours. There were 126 students among the 196 that watched the game in the stadium and we gathered 56710 Bluetooth records in the database. In Figure~\ref{fig:018},  we select one participant \textit{S018} and show the detected phones around that student through Bluetooth during the 4 hour period. For every five minutes, if any other phone is detected we add its corresponding ID in that time slot. There are total 48 time slots and with several students always together with the student in the game. Similarly, we explore one of those nearby students \textit{S077} to validate symmetric detection in Figure~\ref{fig:077}. These two figures further show that it is practical to use Bluetooth to detect people around. 
 \begin{figure}[h!tbp]
 \centering
 {\includegraphics[width=3.5in]{graphs/Figure16.eps}}
-\caption{\textit{S018} data on game day} 
+\caption{\textit{S018} Data on Game Day} 
 \label{fig:018}
 \end{figure} 
 
 \begin{figure}[h!tbp]
 \centering
 {\includegraphics[width=3.5in]{graphs/Figure17.eps}}
-\caption{\textit{S077} data on game day} 
+\caption{\textit{S077} Data on Game Day} 
 \label{fig:077}
 \end{figure} 
 
@@ -461,35 +460,35 @@ We analyzed the symmetry between \textit{S018} and \textit{S077} in a more accur
 \begin{figure}[h!tbp]
 \centering
 {\includegraphics[width=3.5in]{graphs/Figure18.eps}}
-\caption{\textit{S018} data on game day with proximity estimation model} 
+\caption{\textit{S018} Data on Game Day with Proximity Estimation Model} 
 \label{fig:018_80}
 \end{figure}
 
 \begin{figure}[h!tbp]
 \centering
 {\includegraphics[width=3.5in]{graphs/Figure19.eps}}
-\caption{Symmetry analysis of data on game day} 
+\caption{Symmetry Analysis of Data on Game Day} 
 \label{fig:symmetry}
 \end{figure}
 
-\subsubsection{Weekday}
+\emph{Weekday: }
 In this part, we analyzed the data recorded during weekdays, such as class time and lunch hours, and compared it with the data on game days. During the football game, most of the freshmen sit in the same student section and it is highly possible to detect more than 10 people around him/her at one time slot. However, when students are in class or having lunch, the data becomes reasonably sparse. Compared to more than fifty thousand records in the game, we recorded 6408 records on Oct 11th 2011 (Tuesday) from 9am to 1pm. Figure~\ref{fig:018_class} illustrates the data reported by the same phone \textit{S018} during this period. Obviously, the chance to meet other students (related to this project) in class or during the lunch time is relatively low. In \textit{S018}'s case, he/she only met with two other students within a direct-communication distance in class and four during the lunch time. 
 
 \begin{figure}[h!tbp]
 \centering
 {\includegraphics[width=3.5in]{graphs/Figure20.eps}}
-\caption{\textit{S018} data on weekday with proximity estimation model} 
+\caption{\textit{S018} Data on Weekday with Proximity Estimation Model} 
 \label{fig:018_class}
 \end{figure}
 
 \begin{figure}[h!tbp]
 \centering
 {\includegraphics[width=3.5in]{graphs/Figure21.eps}}
-\caption{Fallbreak data with proximity estimation model} 
+\caption{Fallbreak Data with Proximity Estimation Model} 
 \label{fig:fallbreak}
 \end{figure}
 
-\subsubsection{Fall Break}
+\emph{Fall Break: }
 During the fall break (from Oct 17th to Oct 23rd), most students went home and we got relatively less data. Take the data of Oct 19th for example, we got 4373 records in the whole day and only 26 devices detected other devices in the project in face-to-face proximity. We used the proximity estimation model and the same RA to analyze the results we got on Oct 19th between 10am and 10:05am. Figure~\ref{fig:fallbreak} shows the proximity status among students in this specific time slot. There are in total 11 samples collected during the 5-minutes period and (035, 148) means device \textit{S035} detected \textit{S148} was in the face-to-face proximity. Since there is less interference, the symmetry is maintained as observed in Section~\ref{sec:exp}. In Figure~\ref{fig:fallbreak}, more than 70\% values are symmetric. Compared with self-reporting method, our proximity estimation model is a more reliable and effective method to detect face-to-face proximity in daily life. 
 
 \section{Summary}

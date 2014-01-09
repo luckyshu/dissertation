@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2010.7.21)  8 JAN 2014 13:54
+This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2010.7.21)  8 JAN 2014 20:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**chapter2.tex
-(./chapter2.tex
+**chapter5.tex
+(./chapter5.tex
 LaTeX2e <2009/09/24>
 Babel <v3.8l> and hyphenation patterns for english, dumylang, nohyphenation, ge
 rman-x-2009-06-19, ngerman-x-2009-06-19, ancientgreek, ibycus, arabic, armenian
@@ -16,13 +16,13 @@ telugu, indonesian, interlingua, irish, italian, kurmanji, lao, latin, latvian,
  lithuanian, mongolian, mongolianlmc, bokmal, nynorsk, polish, portuguese, roma
 nian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, turkish,
  turkmen, ukrainian, uppersorbian, welsh, loaded.
-./chapter2.tex:27: Undefined control sequence.
-l.27 \chapter
-             {Large-scale smartphone dataset}
+./chapter5.tex:1: Undefined control sequence.
+l.1 \chapter
+            {Opportunistic Relaying}
 ? 
-./chapter2.tex:27: Emergency stop.
-l.27 \chapter
-             {Large-scale smartphone dataset}
+./chapter5.tex:1: Emergency stop.
+l.1 \chapter
+            {Opportunistic Relaying}
 End of file on the terminal!
 
  
@@ -33,5 +33,5 @@ Here is how much of TeX's memory you used:
  3397 multiletter control sequences out of 15000+200000
  3640 words of font info for 14 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 5i,0n,1p,87b,8s stack positions out of 5000i,500n,10000p,200000b,50000s
-./chapter2.tex:27:  ==> Fatal error occurred, no output PDF file produced!
+ 5i,0n,1p,47b,8s stack positions out of 5000i,500n,10000p,200000b,50000s
+./chapter5.tex:1:  ==> Fatal error occurred, no output PDF file produced!

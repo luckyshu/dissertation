@@ -11,45 +11,45 @@ A level-1 auxiliary file: appendix.aux
 The style file: nddiss2e.bst
 Database file #1: dissertation.bib
 Warning--empty journal in CiscoAnnualCellGrowth
-You've used 39 entries,
-            2771 wiz_defined-function locations,
-            838 strings with 11574 characters,
-and the built_in function-call counts, 21701 in all, are:
-= -- 1990
-> -- 1419
-< -- 25
-+ -- 474
-- -- 435
-* -- 1814
-:= -- 3261
-add.period$ -- 111
-call.type$ -- 39
-change.case$ -- 201
-chr.to.int$ -- 39
-cite$ -- 79
-duplicate$ -- 917
-empty$ -- 1637
-format.name$ -- 492
-if$ -- 4657
+You've used 49 entries,
+            2774 wiz_defined-function locations,
+            891 strings with 13175 characters,
+and the built_in function-call counts, 27991 in all, are:
+= -- 2608
+> -- 1746
+< -- 34
++ -- 583
+- -- 534
+* -- 2274
+:= -- 4180
+add.period$ -- 168
+call.type$ -- 49
+change.case$ -- 276
+chr.to.int$ -- 49
+cite$ -- 99
+duplicate$ -- 1205
+empty$ -- 2153
+format.name$ -- 607
+if$ -- 6054
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 38
-newline$ -- 185
-num.names$ -- 156
-pop$ -- 534
+missing$ -- 48
+newline$ -- 257
+num.names$ -- 196
+pop$ -- 667
 preamble$ -- 1
-purify$ -- 183
+purify$ -- 226
 quote$ -- 0
-skip$ -- 740
+skip$ -- 956
 stack$ -- 0
-substring$ -- 961
-swap$ -- 187
-text.length$ -- 15
+substring$ -- 1288
+swap$ -- 256
+text.length$ -- 21
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 429
+type$ -- 539
 warning$ -- 1
-while$ -- 195
+while$ -- 251
 width$ -- 0
-write$ -- 484
+write$ -- 663
 (There was 1 warning)

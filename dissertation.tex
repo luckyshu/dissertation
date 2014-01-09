@@ -41,7 +41,7 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\documentclass[textrefs,review]{nddiss2e}
+\documentclass[final, numrefs, sort&compress, noinfo]{nddiss2e}
 
 % % uncomment the following line 
 % if using chapter-wise bibliography
@@ -51,6 +51,7 @@
 \usepackage{algorithm}
 \usepackage{algorithmic}
 \usepackage{multirow}
+
 \begin{document}
 
 \frontmatter
@@ -58,7 +59,6 @@
 \title{Potential of Opportunistic Relaying\\ {\small\scshape Performance study across wireless interfaces on smartphones} }
 \author{Shu Liu}
 \work{Dissertation}
-\degprior{B.S., M.S.}
 \degaward{Doctor of Philosophy\\in\\Computer Science and Engineering}
 \advisor{Aaron Striegel}
 % \secondadvisor{Gordon Gray}
@@ -77,8 +77,6 @@
 
 \begin{abstract}
 \end{abstract}
-
-\renewcommand{\dedicationname}{}
 
 \begin{dedication}
   To my husband Wei
@@ -143,6 +141,12 @@ Andrew Blaich, Yingxin Jiang, Dirk Van Bruggen, Lei Meng, Xueheng Hu, Benjamin B
 %
 
 \include{chapter6}
+
+%
+% Chapter 7
+%
+
+\include{chapter7}
 
 %
 % Appendix

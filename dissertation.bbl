@@ -1,4 +1,4 @@
-\begin{thebibliography}{39}
+\begin{thebibliography}{49}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -7,12 +7,16 @@
 
 \bibitem[Arshad et~al.(2010)Arshad, Farooq, and Shah]{arshad2010evolution}
 M.~Arshad, A.~Farooq, and A.~Shah.
+\newblock Evolution and development towards 4th generation ({4G}) mobile
+  communication systems.
 \newblock \emph{Journal of American Science}, 6\penalty0 (12):\penalty0 63--68,
   2010.
 
 \bibitem[Bahl et~al.(2009)Bahl, Chandra, Lee, Misra, Padhye, Rubenstein, and
   Yu]{bahl2009opportunistic}
 P.~Bahl, R.~Chandra, P.~Lee, V.~Misra, J.~Padhye, D.~Rubenstein, and Y.~Yu.
+\newblock Opportunistic use of client repeaters to improve performance of
+  wlans.
 \newblock \emph{IEEE/ACM Transactions on Networking (TON)}, 17\penalty0
   (4):\penalty0 1160--1171, 2009.
 
@@ -24,6 +28,8 @@ A.~Balasubramanian, R.~Mahajan, and A.~Venkataramani.
 
 \bibitem[Baouche et~al.(2009)Baouche, Freitas, and Misson]{baouche2009radio}
 C.~Baouche, A.~Freitas, and M.~Misson.
+\newblock Radio proximity detection in a wsn to localize mobile entities within
+  a confined area.
 \newblock \emph{Journal of Communications}, 4\penalty0 (4):\penalty0 232--240,
   2009.
 
@@ -36,6 +42,8 @@ M.~Bilgi, M.~Yuksel, and N.~Pala.
 \bibitem[Bletsas et~al.(2006)Bletsas, Khisti, Reed, and
   Lippman]{bletsas2006simple}
 A.~Bletsas, A.~Khisti, D.~Reed, and A.~Lippman.
+\newblock A simple cooperative diversity method based on network path
+  selection.
 \newblock \emph{Selected Areas in Communications, IEEE Journal on}, 24\penalty0
   (3):\penalty0 659--672, 2006.
 
@@ -46,14 +54,22 @@ R.~Borovoy, F.~Martin, S.~Vemuri, M.~Resnick, B.~Silverman, and C.~Hancock.
   collaboration.
 \newblock In \emph{CSCW'98}, pages 159--168. ACM, 1998.
 
+\bibitem[Cai and Eun(2008)]{cai2008toward}
+H.~Cai and D.~Eun.
+\newblock Toward stochastic anatomy of inter-meeting time distribution under
+  general mobility models.
+\newblock In \emph{MobiHoc'08}, pages 273--282. ACM, 2008.
+
 \bibitem[Chaintreau et~al.(2007)Chaintreau, Hui, Crowcroft, Diot, Gass, and
   Scott]{chaintreau2007impact}
 A.~Chaintreau, P.~Hui, J.~Crowcroft, C.~Diot, R.~Gass, and J.~Scott.
+\newblock Impact of human mobility on opportunistic forwarding algorithms.
 \newblock \emph{Mobile Computing, IEEE Transactions on}, 6\penalty0
   (6):\penalty0 606--620, 2007.
 
 \bibitem[Cisco(2013)]{CiscoAnnualCellGrowth}
 Cisco.
+\newblock Cisco {VNI} mobile data traffic forecast 2012-2017.
 \newblock Feburary 2013.
 
 \bibitem[Dimatteo et~al.(2011)Dimatteo, Hui, Han, and Li]{dimatteo2011cellular}
@@ -63,6 +79,7 @@ S.~Dimatteo, P.~Hui, B.~Han, and V.~Li.
 
 \bibitem[Eagle and Pentland(2005)]{Nathan1}
 N.~Eagle and A.~Pentland.
+\newblock Social serendipity: Mobilizing social software.
 \newblock \emph{Pervasive Computing}, 4\penalty0 (2):\penalty0 28--34, 2005.
 
 \bibitem[Figueiras and Frattasi(2010)]{MobileLocation}
@@ -72,8 +89,17 @@ J.~Figueiras and S.~Frattasi.
 
 \bibitem[Han et~al.(2011)Han, Hui, and Srinivasan]{han2011mobile}
 B.~Han, P.~Hui, and A.~Srinivasan.
+\newblock Mobile data offloading in metropolitan area networks.
 \newblock \emph{ACM SIGMOBILE Mobile Computing and Communications Review},
   14\penalty0 (4):\penalty0 28--30, 2011.
+
+\bibitem[Han et~al.(2012)Han, Hui, Kumar, Marathe, Shao, and
+  Srinivasan]{han2011mobile2}
+B.~Han, P.~Hui, V.~A. Kumar, M.~V. Marathe, J.~Shao, and A.~Srinivasan.
+\newblock Mobile data offloading through opportunistic communications and
+  social participation.
+\newblock \emph{Mobile Computing, IEEE Transactions on}, 11\penalty0
+  (5):\penalty0 821--834, 2012.
 
 \bibitem[Henderson et~al.(2004)Henderson, Kotz, and
   Abyzov]{henderson2004changing}
@@ -90,6 +116,14 @@ F.~Izquierdo, M.~Ciurana, F.~Barcelo, J.~Paradells, and E.~Zola.
   Symposium on}, pages 1--6, {jan.} 2006.
 \newblock \doi{10.1109/ISWPC.2006.1613598}.
 
+\bibitem[Karagiannis et~al.(2010)Karagiannis, Le~Boudec, and
+  Vojnovic]{karagiannis2010power}
+T.~Karagiannis, J.~Le~Boudec, and M.~Vojnovic.
+\newblock Power law and exponential decay of intercontact times between mobile
+  devices.
+\newblock \emph{Mobile Computing, IEEE Transactions on}, 9\penalty0
+  (10):\penalty0 1377--1390, 2010.
+
 \bibitem[Khan et~al.(2009)Khan, Qadeer, Ansari, and Waheed]{khan20094g}
 A.~Khan, M.~Qadeer, J.~Ansari, and S.~Waheed.
 \newblock {4G} as a next generation wireless network.
@@ -105,10 +139,13 @@ A.~Kotanen, M.~Hannikainen, H.~Leppakoski, and T.~Hamalainen.
 
 \bibitem[Krumm and Hinckley(2004)]{krumm2004nearme}
 J.~Krumm and K.~Hinckley.
+\newblock The nearme wireless proximity server.
 \newblock \emph{UbiComp'04}, pages 283--300, 2004.
 
 \bibitem[K{\"u}pper and Treu(2006)]{kupper2006efficient}
 A.~K{\"u}pper and G.~Treu.
+\newblock Efficient proximity and separation detection among mobile targets for
+  supporting location-based community services.
 \newblock \emph{ACM SIGMOBILE Mobile Computing and Communications Review},
   10\penalty0 (3):\penalty0 1--12, 2006.
 
@@ -116,10 +153,13 @@ A.~K{\"u}pper and G.~Treu.
   Scott, Sohn, Howard, Hughes, Potter, et~al.]{lamarca2005place}
 A.~LaMarca, Y.~Chawathe, S.~Consolvo, J.~Hightower, I.~Smith, J.~Scott,
   T.~Sohn, J.~Howard, J.~Hughes, F.~Potter, et~al.
+\newblock Place lab: Device positioning using radio beacons in the wild.
 \newblock \emph{Pervasive Computing}, pages 301--306, 2005.
 
 \bibitem[Laneman et~al.(2004)Laneman, Tse, and Wornell]{laneman2004cooperative}
 J.~Laneman, D.~Tse, and G.~Wornell.
+\newblock Cooperative diversity in wireless networks: Efficient protocols and
+  outage behavior.
 \newblock \emph{Information Theory, IEEE Transactions on}, 50\penalty0
   (12):\penalty0 3062--3080, 2004.
 
@@ -130,6 +170,11 @@ J.~K. Laurila, D.~Gatica-Perez, I.~Aad, J.~Blom, O.~Bornet, T.-M.-T. Do,
 \newblock The mobile data challenge: Big data for mobile computing research.
 \newblock In \emph{Mobile Data Challenge by Nokia Workshop, in conjunction with
   Int. Conf. on Pervasive Computing, Newcastle, UK}, 2012.
+
+\bibitem[Lee et~al.(2009)Lee, Hong, Kim, Rhee, and Chong]{lee2009slaw}
+K.~Lee, S.~Hong, S.~Kim, I.~Rhee, and S.~Chong.
+\newblock Slaw: A new mobility model for human walks.
+\newblock In \emph{INFOCOM'09}, pages 855--863. IEEE, 2009.
 
 \bibitem[Lee et~al.(2010)Lee, Rhee, Lee, Chong, and Yi]{lee2010mobile}
 K.~Lee, I.~Rhee, J.~Lee, S.~Chong, and Y.~Yi.
@@ -144,9 +189,15 @@ K.~Li, T.~Sohn, S.~Huang, and W.~Griswold.
 
 \bibitem[Liu et~al.(2007)Liu, Darabi, Banerjee, and Liu]{survey2}
 H.~Liu, H.~Darabi, P.~Banerjee, and J.~Liu.
+\newblock Survey of wireless indoor positioning techniques and systems.
 \newblock \emph{Systems, Man, and Cybernetics, Part C: Applications and
   Reviews, IEEE Transactions on}, 37\penalty0 (6):\penalty0 1067 --1080,
   {November} 2007.
+
+\bibitem[Liu and Striegel(2012)]{liu:CellNet12}
+S.~Liu and A.~Striegel.
+\newblock Casting doubts on the viability of wifi offloading.
+\newblock In \emph{Proc. of CellNet}, pages 25--30. ACM, 2012.
 
 \bibitem[Lu et~al.(2009)Lu, Steenkiste, and Chen]{lu2009design}
 M.~Lu, P.~Steenkiste, and T.~Chen.
@@ -154,13 +205,28 @@ M.~Lu, P.~Steenkiste, and T.~Chen.
   retransmission protocol.
 \newblock In \emph{MobiCom'09}, pages 73--84. ACM, 2009.
 
+\bibitem[Lu et~al.(2007)Lu, Steenkiste, and Chen]{SteenkisteRelayACK}
+M.-H. Lu, P.~Steenkiste, and T.~Chen.
+\newblock Time-aware opportunistic relay for video streaming over wlans.
+\newblock In \emph{Proc. of IEEE Multimedia and Expo}, pages 1782--1785. IEEE,
+  2007.
+
 \bibitem[M.~Raento and Eagle(2009)]{Nathan2}
 A.~O. M.~Raento and N.~Eagle.
+\newblock Smartphones: An emerging tool for social scientists.
 \newblock \emph{Sociological Methods Research}, 37\penalty0 (3):\penalty0
   426--454, 2009.
 
+\bibitem[Madan et~al.(2008)Madan, Mehta, Molisch, and Zhang]{madan2008energy}
+R.~Madan, N.~Mehta, A.~Molisch, and J.~Zhang.
+\newblock Energy-efficient cooperative relaying over fading channels with
+  simple relay selection.
+\newblock \emph{Wireless Communications, IEEE Transactions on}, 7\penalty0
+  (8):\penalty0 3013--3025, 2008.
+
 \bibitem[McNett and Voelker(2005)]{mcnett2005access}
 M.~McNett and G.~M. Voelker.
+\newblock Access and mobility of wireless pda users.
 \newblock \emph{ACM SIGMOBILE Mobile Computing and Communications Review},
   9\penalty0 (2):\penalty0 40--55, 2005.
 
@@ -172,22 +238,39 @@ E.~Mynatt, M.~Back, R.~Want, and R.~Frederick.
 
 \bibitem[Nathan~Eagle and Lazer(2009)]{Nathan3}
 A.~P. Nathan~Eagle and D.~Lazer.
+\newblock Inferring social network structure using mobile phone data.
 \newblock \emph{Proc. of the National Academy of Sciences (PNAS)}, 106\penalty0
   (36):\penalty0 15274--15278, September 2009.
 
 \bibitem[Otsason et~al.(2005)Otsason, Varshavsky, LaMarca, and De~Lara]{cell}
 V.~Otsason, A.~Varshavsky, A.~LaMarca, and E.~De~Lara.
+\newblock Accurate {GSM} indoor localization.
 \newblock \emph{UbiComp 2005: Ubiquitous Computing}, pages 903--921, 2005.
+
+\bibitem[Passarella and Conti(2011)]{passarella2011characterising}
+A.~Passarella and M.~Conti.
+\newblock Characterising aggregate inter-contact times in heterogeneous
+  opportunistic networks.
+\newblock \emph{NETWORKING'11}, pages 301--313, 2011.
 
 \bibitem[Pelusi et~al.(2006)Pelusi, Passarella, and
   Conti]{pelusi2006opportunistic}
 L.~Pelusi, A.~Passarella, and M.~Conti.
+\newblock Opportunistic networking: data forwarding in disconnected mobile ad
+  hoc networks.
 \newblock \emph{Communications Magazine, IEEE}, 44\penalty0 (11):\penalty0
   134--141, 2006.
+
+\bibitem[Polastre et~al.(2005)Polastre, Szewczyk, and
+  Culler]{polastre2005telos}
+J.~Polastre, R.~Szewczyk, and D.~Culler.
+\newblock Telos: enabling ultra-low power wireless research.
+\newblock In \emph{IPSN'05}, pages 364--369. IEEE, 2005.
 
 \bibitem[Sendonaris et~al.(2003)Sendonaris, Erkip, and
   Aazhang]{sendonaris2003user}
 A.~Sendonaris, E.~Erkip, and B.~Aazhang.
+\newblock User cooperation diversity. part i. system description.
 \newblock \emph{Communications, IEEE Transactions on}, 51\penalty0
   (11):\penalty0 1927--1938, 2003.
 
@@ -206,6 +289,7 @@ G.~Treu and A.~K{\"u}pper.
 \bibitem[Want et~al.(1992)Want, Hopper, Falc{\~a}o, and
   Gibbons]{want1992active}
 R.~Want, A.~Hopper, V.~Falc{\~a}o, and J.~Gibbons.
+\newblock The active badge location system.
 \newblock \emph{ACM Transactions on Information Systems (TOIS)}, 10\penalty0
   (1):\penalty0 91--102, 1992.
 
@@ -218,13 +302,22 @@ S.~Wieth{\"o}lter, M.~Emmelmann, R.~Andersson, and A.~Wolisz.
 
 \bibitem[Zeimpekis et~al.(2002)Zeimpekis, Giaglis, and Lekakos]{survey1}
 V.~Zeimpekis, G.~M. Giaglis, and G.~Lekakos.
+\newblock A taxonomy of indoor and outdoor positioning techniques for mobile
+  location services.
 \newblock \emph{SIGecom Exch.}, 3:\penalty0 19--27, December 2002.
 
 \bibitem[Zhou and Pollard(2006)]{BTposition}
 S.~Zhou and J.~Pollard.
+\newblock Position measurement using {Bluetooth}.
 \newblock \emph{Consumer Electronics, IEEE Transactions on}, 52\penalty0
   (2):\penalty0 555--558, {May} 2006.
 \newblock ISSN 0098-3063.
 \newblock \doi{10.1109/TCE.2006.1649679}.
+
+\bibitem[Zou et~al.(2013)Zou, Zhu, and Zhang]{zou2012exploiting}
+Y.~Zou, J.~Zhu, and R.~Zhang.
+\newblock Exploiting network cooperation in green wireless communication.
+\newblock \emph{Communications, IEEE Transactions on}, 61\penalty0
+  (3):\penalty0 999--1010, 2013.
 
 \end{thebibliography}

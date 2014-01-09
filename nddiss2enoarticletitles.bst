@@ -706,7 +706,7 @@ FUNCTION {article}
   format.authors "author" output.check
   author format.key output
   new.block
-  format.title "title" output.check
+%%%  format.title "title" output.check
   new.block
   crossref missing$
     { journal emphasize "journal" output.check

@@ -1,0 +1,51 @@
+\contentsline {chapter}{FIGURES}{v}{chapter*.3}
+\contentsline {chapter}{TABLES}{vii}{chapter*.4}
+\contentsline {chapter}{ACKNOWLEDGMENTS}{viii}{chapter*.5}
+\contentsline {chapter}{{CHAPTER\ 1: INTRODUCTION}}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Overview}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}Contributions}{3}{section.1.2}
+\contentsline {chapter}{{CHAPTER\ 2: Large-scale Dataset}}{5}{chapter.2}
+\contentsline {section}{\numberline {2.1}Data Collection}{5}{section.2.1}
+\contentsline {section}{\numberline {2.2}Dataset Overview}{7}{section.2.2}
+\contentsline {section}{\numberline {2.3}Comparison}{10}{section.2.3}
+\contentsline {chapter}{{CHAPTER\ 3: Bluetooth Proximity}}{13}{chapter.3}
+\contentsline {section}{\numberline {3.1}Background}{13}{section.3.1}
+\contentsline {section}{\numberline {3.2}Related Work}{14}{section.3.2}
+\contentsline {section}{\numberline {3.3}Proximity Estimation Model}{16}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Bluetooth RSSI vs. Distance}{17}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Proximity Estimation Model}{22}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Comparisons}{33}{subsection.3.3.3}
+\contentsline {section}{\numberline {3.4}Case Study}{36}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Proximity in large group}{37}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Proximity in small group}{41}{subsection.3.4.2}
+\contentsline {section}{\numberline {3.5}Summary}{46}{section.3.5}
+\contentsline {chapter}{{CHAPTER\ 4: WiFi Offloading}}{47}{chapter.4}
+\contentsline {section}{\numberline {4.1}Background}{47}{section.4.1}
+\contentsline {section}{\numberline {4.2}Related work}{49}{section.4.2}
+\contentsline {section}{\numberline {4.3}WiFi Offloading in Practice}{49}{section.4.3}
+\contentsline {section}{\numberline {4.4}Comparison of User Behavior}{53}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Phone Usage}{56}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}App Usage}{59}{subsection.4.4.2}
+\contentsline {section}{\numberline {4.5}Summary}{61}{section.4.5}
+\contentsline {chapter}{{CHAPTER\ 5: Opportunistic Relaying}}{64}{chapter.5}
+\contentsline {section}{\numberline {5.1}Background}{64}{section.5.1}
+\contentsline {section}{\numberline {5.2}Related Work}{65}{section.5.2}
+\contentsline {section}{\numberline {5.3}Evaluating Practical Relaying}{66}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Availability}{69}{subsection.5.3.1}
+\contentsline {subsubsection}{\numberline {5.3.1.1}Proximity}{69}{subsubsection.5.3.1.1}
+\contentsline {subsubsection}{\numberline {5.3.1.2}Symmetry}{73}{subsubsection.5.3.1.2}
+\contentsline {subsubsection}{\numberline {5.3.1.3}Diversity}{73}{subsubsection.5.3.1.3}
+\contentsline {subsubsection}{\numberline {5.3.1.4}Residual Battery}{75}{subsubsection.5.3.1.4}
+\contentsline {subsubsection}{\numberline {5.3.1.5}Evaluating Availability}{76}{subsubsection.5.3.1.5}
+\contentsline {subsection}{\numberline {5.3.2}Prevalence}{77}{subsection.5.3.2}
+\contentsline {subsubsection}{\numberline {5.3.2.1}Time in Proximity}{77}{subsubsection.5.3.2.1}
+\contentsline {subsubsection}{\numberline {5.3.2.2}Intercontact Time and Beyond}{82}{subsubsection.5.3.2.2}
+\contentsline {subsubsection}{\numberline {5.3.2.3}Measuring Effective Utility}{83}{subsubsection.5.3.2.3}
+\contentsline {subsubsection}{\numberline {5.3.2.4}Evaluating Prevalence}{86}{subsubsection.5.3.2.4}
+\contentsline {subsection}{\numberline {5.3.3}Stability}{87}{subsection.5.3.3}
+\contentsline {subsection}{\numberline {5.3.4}Reciprocity}{92}{subsection.5.3.4}
+\contentsline {section}{\numberline {5.4}Summary}{96}{section.5.4}
+\contentsline {chapter}{{CHAPTER\ 6: Energy Consumption}}{98}{chapter.6}
+\contentsline {chapter}{{CHAPTER\ 7: Conclusion and Outlook}}{99}{chapter.7}
+\contentsline {chapter}{{APPENDIX\ A: Appendix}}{101}{appendix.A}
+\contentsline {chapter}{BIBLIOGRAPHY}{103}{appendix*.6}

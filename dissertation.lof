@@ -1,0 +1,124 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces PhoneMonitor Software Design}}{7}{figure.2.1}
+ {\vskip 0.4em} 
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Monitoring System}}{8}{figure.2.2}
+ {\vskip 0.4em} 
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Ecdf of Data in April 2012}}{11}{figure.2.3}
+ {\vskip 0.4em} 
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Bluetooth RSSI Values Distribution in One Week}}{17}{figure.3.1}
+ {\vskip 0.4em} 
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Initial Indoor RSSI Values with Different Distances}}{19}{figure.3.2}
+ {\vskip 0.4em} 
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Bluetooth RSSI vs. Distance - Theoretical, Indoor \& Outdoor}}{20}{figure.3.3}
+ {\vskip 0.4em} 
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Bluetooth RSSI vs. Distance Indoor Case}}{21}{figure.3.4}
+ {\vskip 0.4em} 
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Symmetric RSSI Values}}{21}{figure.3.5}
+ {\vskip 0.4em} 
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Bluetooth RSSI vs. Distance Outdoor Case}}{22}{figure.3.6}
+ {\vskip 0.4em} 
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Walk Path for Real-world Scenario}}{24}{figure.3.7}
+ {\vskip 0.4em} 
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Cdf of Light Sensor Data in Different Environments}}{29}{figure.3.8}
+ {\vskip 0.4em} 
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Data in Real-world Scenario}}{29}{figure.3.9}
+ {\vskip 0.4em} 
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Multiple Thresholds in Different Zones}}{32}{figure.3.10}
+ {\vskip 0.4em} 
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Location Data Provided by WiFi and GPS}}{36}{figure.3.11}
+ {\vskip 0.4em} 
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Light Sensor Data Distribution on Tuesday}}{39}{figure.3.12}
+ {\vskip 0.4em} 
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Bluetooth RSSI Values Distribution on Tuesday}}{40}{figure.3.13}
+ {\vskip 0.4em} 
+\contentsline {figure}{\numberline {3.14}{\ignorespaces \textit {S018} Data on Game Day}}{41}{figure.3.14}
+ {\vskip 0.4em} 
+\contentsline {figure}{\numberline {3.15}{\ignorespaces \textit {S077} Data on Game Day}}{42}{figure.3.15}
+ {\vskip 0.4em} 
+\contentsline {figure}{\numberline {3.16}{\ignorespaces \textit {S018} Data on Game Day with Proximity Estimation Model}}{43}{figure.3.16}
+ {\vskip 0.4em} 
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Symmetry Analysis of Data on Game Day}}{44}{figure.3.17}
+ {\vskip 0.4em} 
+\contentsline {figure}{\numberline {3.18}{\ignorespaces \textit {S018} Data on Weekday with Proximity Estimation Model}}{45}{figure.3.18}
+ {\vskip 0.4em} 
+\contentsline {figure}{\numberline {3.19}{\ignorespaces Fallbreak Data with Proximity Estimation Model}}{45}{figure.3.19}
+ {\vskip 0.4em} 
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Average Downlink Traffic per Phone per Week}}{50}{figure.4.1}
+ {\vskip 0.4em} 
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Switch between 3G and WiFi}}{51}{figure.4.2}
+ {\vskip 0.4em} 
+\contentsline {figure}{\numberline {4.3}{\ignorespaces WiFi Signal Strength (1700-1800h)}}{52}{figure.4.3}
+ {\vskip 0.4em} 
+\contentsline {figure}{\numberline {4.4}{\ignorespaces WiFi Signal Strength (2200-2300h)}}{52}{figure.4.4}
+ {\vskip 0.4em} 
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Screen On Duration in One Day}}{53}{figure.4.5}
+ {\vskip 0.4em} 
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Distribution of Percent of WiFi Traffic}}{54}{figure.4.6}
+ {\vskip 0.4em} 
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Numbers of Participant in Groups}}{55}{figure.4.7}
+ {\vskip 0.4em} 
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Weekly Average Total Downlink Traffic per Phone}}{56}{figure.4.8}
+ {\vskip 0.4em} 
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Avg. Daily Screen Usage of Groups}}{57}{figure.4.9}
+ {\vskip 0.4em} 
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Avg. Screen session length of Groups}}{58}{figure.4.10}
+ {\vskip 0.4em} 
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Avg. Screen on Duration in Different Time Slots}}{58}{figure.4.11}
+ {\vskip 0.4em} 
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Weekly Application Downlink Traffic}}{61}{figure.4.12}
+ {\vskip 0.4em} 
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Weekly Application Uplink Traffic}}{62}{figure.4.13}
+ {\vskip 0.4em} 
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Bluetooth and WiFi RSSI Values ECDF}}{70}{figure.5.1}
+ {\vskip 0.4em} 
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Bluetooth Proximity and WiFi Proximity ECDF in April 2012}}{72}{figure.5.2}
+ {\vskip 0.4em} 
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Comparison of Bluetooth Proximity and WiFi Proximity}}{72}{figure.5.3}
+ {\vskip 0.4em} 
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Symmetry of Bluetooth Proximity}}{73}{figure.5.4}
+ {\vskip 0.4em} 
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Distribution of Proximity Diversity (In-Study) in April 2012}}{74}{figure.5.5}
+ {\vskip 0.4em} 
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Diurnal Distribution of Proximity Diversity in April 2012}}{75}{figure.5.6}
+ {\vskip 0.4em} 
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Average Daily Low Residual Battery Time in April 2012}}{76}{figure.5.7}
+ {\vskip 0.4em} 
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Bluetooth Proximity with Different Restrictions}}{79}{figure.5.8}
+ {\vskip 0.4em} 
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Diurnal Distribution of Bluetooth Proximity}}{80}{figure.5.9}
+ {\vskip 0.4em} 
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Diurnal Distribution of Bluetooth Proximity in April 2012}}{80}{figure.5.10}
+ {\vskip 0.4em} 
+\contentsline {figure}{\numberline {5.11}{\ignorespaces WiFi Proximity}}{81}{figure.5.11}
+ {\vskip 0.4em} 
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Combined Proximity (Fused Bluetooth / WiFi Detection)}}{82}{figure.5.12}
+ {\vskip 0.4em} 
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Intercontact Time ECDF}}{83}{figure.5.13}
+ {\vskip 0.4em} 
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Weak WiFi Signal \& Traffic}}{85}{figure.5.14}
+ {\vskip 0.4em} 
+\contentsline {figure}{\numberline {5.15}{\ignorespaces Relaying \& Weak WiFi Signal}}{85}{figure.5.15}
+ {\vskip 0.4em} 
+\contentsline {figure}{\numberline {5.16}{\ignorespaces Traffic \& Relaying}}{86}{figure.5.16}
+ {\vskip 0.4em} 
+\contentsline {figure}{\numberline {5.17}{\ignorespaces Proximity Duration ECDF}}{88}{figure.5.17}
+ {\vskip 0.4em} 
+\contentsline {figure}{\numberline {5.18}{\ignorespaces Number of Proximity Nodes vs. Node Strength }}{89}{figure.5.18}
+ {\vskip 0.4em} 
+\contentsline {figure}{\numberline {5.19}{\ignorespaces Total Appearances and Continuous Appearances in Day Counts ECDF}}{90}{figure.5.19}
+ {\vskip 0.4em} 
+\contentsline {figure}{\numberline {5.20}{\ignorespaces Weekly Cumulative Number and Active Number}}{91}{figure.5.20}
+ {\vskip 0.4em} 
+\contentsline {figure}{\numberline {5.21}{\ignorespaces Distribution of Potential Interactions - Need vs. Serve (November 2012)}}{94}{figure.5.21}
+ {\vskip 0.4em} 
+\contentsline {figure}{\numberline {5.22}{\ignorespaces Ratio of Needing vs. Serving (November 2012)}}{95}{figure.5.22}
+ {\vskip 0.4em} 
+\contentsline {figure}{\numberline {5.23}{\ignorespaces Diurnal Distribution of Ratio (November 2012)}}{95}{figure.5.23}
+ {\vskip 0.4em} 
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
